@@ -2931,46 +2931,46 @@
 		waterSpecularM="200.000"
 		waterSpecularS="0.005">
 		<Sky
-			sunriseColor="112.200 175.950 137.700"
-			dayColor="114.750 84.150 104.550"
-			sunsetColor="173.400 94.350 99.450"
-			nightColor="33.150 0.000 94.350" />
+			sunriseColor="94.350 160.650 140.250"
+			dayColor="91.800 142.800 181.050"
+			sunsetColor="112.200 150.450 99.450"
+			nightColor="33.150 58.650 40.800" />
 
 		<Fog
-			sunriseColor="122.400 181.050 135.150"
-			dayColor="168.300 145.350 191.250"
-			sunsetColor="160.650 117.300 119.850"
-			nightColor="15.300 17.850 51.000" />
+			sunriseColor="160.650 234.600 178.500"
+			dayColor="178.500 221.850 163.200"
+			sunsetColor="175.950 170.850 119.850"
+			nightColor="15.300 33.150 35.700" />
 
 		<Ambient
-			sunriseColor="158.100 122.400 170.850"
-			dayColor="255.000 255.000 255.000"
-			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			sunriseColor="153.000 196.350 170.850"
+			dayColor="170.850 178.500 173.400"
+			sunsetColor="178.500 178.500 155.550"
+			nightColor="81.600 81.600 91.800" />
 
 		<Diffuse
-			sunriseColor="124.950 142.800 124.950"
-			dayColor="255.000 255.000 255.000"
-			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			sunriseColor="112.200 109.650 109.650"
+			dayColor="158.100 193.800 142.800"
+			sunsetColor="117.300 117.300 104.550"
+			nightColor="76.500 86.700 81.600" />
 
 		<Sun
-			sunriseColor="137.700 128.000 128.000"
-			dayColor="255.000 255.000 255.000"
+			sunriseColor="153.000 153.000 155.550"
+			dayColor="130.050 135.150 153.000"
 			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			nightColor="63.750 66.300 63.750" />
 
 		<Plant
-			sunriseColor="127.500 127.500 128.000"
-			dayColor="255.000 255.000 255.000"
-			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			sunriseColor="155.550 173.400 196.350"
+			dayColor="142.800 158.100 193.800"
+			sunsetColor="140.250 155.550 175.950"
+			nightColor="45.900 56.100 73.950" />
 
 		<Specular
-			sunriseColor="127.500 128.000 128.000"
-			dayColor="255.000 255.000 255.000"
-			sunsetColor="128.000 128.000 128.000"
-			nightColor="64.000 64.000 64.000" />
+			sunriseColor="153.000 155.550 153.000"
+			dayColor="109.650 114.750 117.300"
+			sunsetColor="137.700 102.000 102.000"
+			nightColor="91.800 142.800 142.800" />
 
 		<PostEffect
 			sunrise="wSunrise_r1m5"

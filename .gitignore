@@ -90,5 +90,18 @@ video.xml
 !data/maps/r3m2.ssl
 !data/maps/r4m1.ssl
 !data/maps/r4m2.ssl
+#r1m5
 !data/maps/r1m5.ssl
+!data/maps/r1m5/colormap.raw
+!data/maps/r1m5/displace.bin
+!data/maps/r1m5/level.tile
+!data/maps/r1m5/lightmap_daytime_r1m5.dds
+!data/maps/r1m5/lightmap_nighttime_r1m5.dds
+!data/maps/r1m5/lightmap_sunrisetime_r1m5.dds
+!data/maps/r1m5/lightmap_sunsettime_r1m5.dds
+!data/maps/r1m5/NormalMap.bin
+!data/maps/r1m5/passmap.raw
+!data/maps/r1m5/ShoreLine.bin
+!data/maps/r1m5/water.raw
+
 

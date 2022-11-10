@@ -4,22 +4,22 @@
 		name="r1m5_clear01">
 		<ColorType
 			name="sunrise"
-			LightmapTexture="LoadMe.txt"
+			LightmapTexture="lightmap_sunrisetime_r1m5.dds"
 			CloudsTexture="skyclear2.dds" />
 
 		<ColorType
 			name="day"
-			LightmapTexture="LoadMe.txt"
-			CloudsTexture="LoadMe.txt" />
+			LightmapTexture="lightmap_daytime_r1m5.dds"
+			CloudsTexture="skyclear2.dds" />
 
 		<ColorType
 			name="sunset"
-			LightmapTexture="LoadMe.txt"
-			CloudsTexture="LoadMe.txt" />
+			LightmapTexture="lightmap_sunsettime_r1m5.dds"
+			CloudsTexture="skyclear2.dds" />
 
 		<ColorType
 			name="night"
-			LightmapTexture="LoadMe.txt"
+			LightmapTexture="lightmap_nighttime_r1m5.dds"
 			CloudsTexture="skyclear2.dds" />
 	</WeatherItem>
 </Weather>
