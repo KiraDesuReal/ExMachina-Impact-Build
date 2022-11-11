@@ -2922,14 +2922,14 @@
 		class="WeatherClear"
 		name="r1m5_clear01"
 		skyDomeFactor="1.000"
-		waterSpeed="0.520"
-		waterWaveHBig="0.000"
-		waterWaveHSmall="0.000"
-		waterWaveSizeBig="0.500"
-		waterWaveSizeSmall="1.000"
-		waterCourseAngle="0.000"
-		waterSpecularM="200.000"
-		waterSpecularS="0.005">
+		waterSpeed="0.110"
+		waterWaveHBig="2.710"
+		waterWaveHSmall="0.940"
+		waterWaveSizeBig="0.370"
+		waterWaveSizeSmall="1.470"
+		waterCourseAngle="3.140"
+		waterSpecularM="153.000"
+		waterSpecularS="0.007">
 		<Sky
 			sunriseColor="94.350 160.650 140.250"
 			dayColor="91.800 142.800 181.050"
