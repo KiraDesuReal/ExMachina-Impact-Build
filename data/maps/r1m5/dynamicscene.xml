@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="0">
+	LastId="5">
 	<TargetNamesForDestroy
 		Names="" />
 
@@ -19,4 +19,39 @@
 			<Repository />
 		</Object>
 	</Object>
+
+	<Object
+		Name="Exit1_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="506.826 254.546 887.857"
+		Radius="18.000" />
+
+	<Object
+		Name="CreateKey_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="645.138 254.546 982.778"
+		Radius="23.000" />
+
+	<Object
+		Name="Start_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="739.498 254.546 982.101"
+		Radius="18.000" />
+
+	<Object
+		Name="Drop_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="929.056 254.546 984.136"
+		Radius="20.000" />
+
+	<Object
+		Name="Exit2_loc"
+		Belong="1100"
+		Prototype="genericLocation"
+		Pos="1071.375 254.546 984.165"
+		Radius="20.000" />
 </DynamicScene>

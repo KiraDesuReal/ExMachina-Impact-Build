@@ -101,6 +101,7 @@ video.xml
 !data/maps/r1m5/lightmap_sunsettime_r1m5.dds
 !data/maps/r1m5/NormalMap.bin
 !data/maps/r1m5/passmap.raw
+!data/maps/r1m5/player_passmap.bin
 !data/maps/r1m5/ShoreLine.bin
 !data/maps/r1m5/water.raw
 
