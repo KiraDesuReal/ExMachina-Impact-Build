@@ -15,7 +15,7 @@
 			name="PATH">data\maps\r1m5</Key>
 
 		<Key
-			name="LEVELNAME">Untitled</Key>
+			name="LEVELNAME">r1m5</Key>
 
 		<Key
 			name="HIGHMAP">displace.bin</Key>
@@ -126,7 +126,7 @@
 			name="PLAYERPASSMAP">player_passmap.bin</Key>
 
 		<Key
-			name="SERVERS">data\models\servers.xml</Key>
+			name="SERVERS">data\maps\r1m5\servers.xml</Key>
 
 		<Key
 			name="STATICSERVERS">data\models\commonservers.xml</Key>

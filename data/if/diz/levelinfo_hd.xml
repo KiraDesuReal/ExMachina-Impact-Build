@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <LevelInfoResource>
+
+	<LevelInfo
+		name="r1m5"
+		file="data\maps\r1m5.ssl"
+		fullName=""
+		diz0=""
+		diz1=""
+		image0="data\if\map\dungeon.dds"
+		image1=""
+		splashes="data\if\ico_hd\Splashes\dungeon.dds"
+		musicBlocks="block_dungeon" />
+
+
 	<LevelInfo
 		name="mainmenu"
 		file="data\maps\mainmenu.ssl"

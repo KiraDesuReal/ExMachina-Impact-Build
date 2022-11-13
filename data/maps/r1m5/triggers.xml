@@ -1,9 +1,47 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <triggers>
-<!-- ’гв ваЁЈЈҐа  -->
+
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="StartMap" active="1">
+		<event eventid="GE_GAME_START" ObjName="Player1" />
+		<script>
+
+		</script>
+	</trigger>
+
+	<trigger Name="CreateGate" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewDummyObject("quay_round_line", "quay1", -1, -1, CVector(621.864, 254.545, 984.225), Quaternion(0.0000, -0.7071, 0.0000, 0.7071), 0)
+			CreateNewSgNodeObject("agro_gate", "gate1Sg", -1, -1, CVector(628.390, 254.545, 982.722), Quaternion(0.0000, -0.7071, 0.0000, 0.7071), 2.2)
+
+			CreateNewDummyObject("quay_round_line", "quay2", -1, -1, CVector(855.358, 254.545, 981.329), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 0)
+			CreateNewSgNodeObject("agro_gate", "gate2Sg", -1, -1, CVector(848.853, 254.545, 982.735), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 2.2)
+
+			CreateEffectInsertedInRemove("ET_PS_EXPLOSION_GATE_DUNGEON", CVector(621.864, 254.545, 984.225), Quaternion(0, 0, 0, 1), true)
+			CreateEffectInsertedInRemove("ET_PS_EXPLOSION_GATE_DUNGEON", CVector(855.358, 254.545, 981.329), Quaternion(0, 0, 0, 1), true)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RemoveGate" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			for i=1,2 do
+				local gate = GetEntityByName("gate"..i.."Sg")
+				if gate then gate:Remove() end
+			end
+
+			for i=1,2 do
+				local quay = GetEntityByName("quay"..i)
+				if quay then quay:Remove() end
+			end
 			trigger:Deactivate()
 		</script>
 	</trigger>

@@ -61,4 +61,10 @@
 		alarm	="block0_alarm"
 		battle	="block0_battle" />
 
+	<Block 
+		name	="block_dungeon"
+		driving	="silence"
+		alarm	="silence"
+		battle	="silence" />
+
 </MusicBlocks>

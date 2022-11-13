@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="314495987">
+	LastId="314496023">
 	<Node
 		name="Object314495380"
 		class="SgAnimatedModelNode"
@@ -36,7 +36,7 @@
 		class="SgAnimatedModelNode"
 		org="628.390 0.000 982.735"
 		orgRel="1"
-		rot="0.0000 0.7071 0.0000 0.7071"
+		rot="0.0000 -0.7071 0.0000 0.7071"
 		scale="2.200 2.200 2.200"
 		id="agro_post"
 		ndmAction="0"
@@ -74,7 +74,7 @@
 	<Node
 		name="Object314495392"
 		class="SgAnimatedModelNode"
-		org="848.287 0.000 1044.937"
+		org="848.287 0.000 1051.937"
 		orgRel="1"
 		rot="0.0000 0.7071 0.0000 0.7071"
 		scale="1.200 1.200 1.200"
@@ -94,7 +94,7 @@
 	<Node
 		name="Object314495394"
 		class="SgAnimatedModelNode"
-		org="848.299 0.000 930.302"
+		org="848.299 0.000 921.302"
 		orgRel="1"
 		rot="0.0000 0.7071 0.0000 0.7071"
 		scale="1.200 1.200 1.200"
@@ -204,26 +204,6 @@
 		ndmAction="0" />
 
 	<Node
-		name="Object314495447"
-		class="SgAnimatedModelNode"
-		org="848.563 0.000 982.735"
-		orgRel="1"
-		rot="0.0000 0.7071 0.0000 0.7071"
-		scale="1.600 1.600 1.600"
-		id="arc_road"
-		ndmAction="0" />
-
-	<Node
-		name="Object314495462"
-		class="SgParticlesNode"
-		org="848.041 33.857 959.631"
-		orgRel="1"
-		rot="0.7066 0.0000 -0.0247 0.7072"
-		scale="1.200 1.200 1.200"
-		id="PS_ORACUL_MAIN3"
-		psNumEmitterMesh="-1" />
-
-	<Node
 		name="Object314495467"
 		class="SgParticlesNode"
 		org="506.927 -12.346 888.948"
@@ -237,17 +217,10 @@
 		class="SgParticlesNode"
 		org="735.678 0.000 984.171"
 		orgRel="1"
+		rot="0.0000 0.0000 0.0000 1.0000"
 		scale="2.600 2.600 2.600"
 		id="PS_ORACUL_MAIN8"
 		psNumEmitterMesh="-1" />
-
-	<Node
-		name="Object314495471"
-		class="SgAnimatedModelNode"
-		org="740.000 -9.998 983.633"
-		orgRel="1"
-		id="quay_big_cube"
-		ndmAction="0" />
 
 	<Node
 		name="Object314495486"
@@ -648,38 +621,6 @@
 		scale="1.400 1.400 1.400"
 		id="quay_big_cube"
 		ndmAction="0" />
-
-	<Node
-		name="Object314495625"
-		class="SgParticlesNode"
-		org="727.446 0.414 970.967"
-		orgRel="1"
-		id="PS_LENS_D6"
-		psNumEmitterMesh="-1" />
-
-	<Node
-		name="Object314495626"
-		class="SgParticlesNode"
-		org="751.432 0.414 970.967"
-		orgRel="1"
-		id="PS_LENS_D6"
-		psNumEmitterMesh="-1" />
-
-	<Node
-		name="Object314495627"
-		class="SgParticlesNode"
-		org="727.446 0.414 994.720"
-		orgRel="1"
-		id="PS_LENS_D6"
-		psNumEmitterMesh="-1" />
-
-	<Node
-		name="Object314495628"
-		class="SgParticlesNode"
-		org="751.432 0.414 994.720"
-		orgRel="1"
-		id="PS_LENS_D6"
-		psNumEmitterMesh="-1" />
 
 	<Node
 		name="Object314495631"
@@ -2580,4 +2521,59 @@
 		orgRel="1"
 		id="r3_tropictree1"
 		ndmAction="0" />
+
+	<Node
+		name="Object314495996"
+		class="SgAnimatedModelNode"
+		org="739.594 -10.020 984.016"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314496001"
+		class="SgParticlesNode"
+		org="733.913 0.243 978.105"
+		orgRel="1"
+		scale="0.400 0.400 0.400"
+		id="PS_LENS_D6"
+		psNumEmitterMesh="-1" />
+
+	<Node
+		name="Object314496002"
+		class="SgParticlesNode"
+		org="745.741 0.243 978.105"
+		orgRel="1"
+		scale="0.400 0.400 0.400"
+		id="PS_LENS_D6"
+		psNumEmitterMesh="-1" />
+
+	<Node
+		name="Object314496003"
+		class="SgParticlesNode"
+		org="733.913 0.243 989.793"
+		orgRel="1"
+		scale="0.400 0.400 0.400"
+		id="PS_LENS_D6"
+		psNumEmitterMesh="-1" />
+
+	<Node
+		name="Object314496004"
+		class="SgParticlesNode"
+		org="745.741 0.243 989.793"
+		orgRel="1"
+		scale="0.400 0.400 0.400"
+		id="PS_LENS_D6"
+		psNumEmitterMesh="-1" />
+
+	<Node
+		name="Object314496007"
+		class="SgAnimatedModelNode"
+		org="848.853 0.000 982.735"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="2.200 2.200 2.200"
+		id="agro_post"
+		ndmAction="0"
+		passable="0" />
 </World>

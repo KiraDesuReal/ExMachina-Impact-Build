@@ -104,5 +104,9 @@ video.xml
 !data/maps/r1m5/player_passmap.bin
 !data/maps/r1m5/ShoreLine.bin
 !data/maps/r1m5/water.raw
-
+#dds
+!data/if/map/dungeon.dds
+!data/if/ico_hd/splashes/dungeon.dds
+#ogg
+!data/music/silence.ogg
 

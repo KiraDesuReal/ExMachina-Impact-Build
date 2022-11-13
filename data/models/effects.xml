@@ -2,6 +2,18 @@
 <!-- $Id: effects.xml,v 1.6 2004/11/25 10:51:16 den Exp $  -->
 <Prefabs>
 
+	<Node name="ET_PS_EXPLOSION_GATE_DUNGEON" class="SgNode">
+		<Node name="11" class="SgParticlesNode" id="PS_VEN_EXP1_MED_MAIN2" psNumEmitterMesh="-1" />
+		<Node name="12" class="SgParticlesNode" id="PS_VEN_EXP1_MED_DUST" psNumEmitterMesh="-1" />
+		<Node name="14" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="144" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="23" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE3" psNumEmitterMesh="-1" />
+		<Node name="1444" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE2" psNumEmitterMesh="-1" />
+		<Node name="13" class="SgParticlesNode" id="PS_VEN_EXP1_MED_SMOKE" psNumEmitterMesh="-1" />
+		<Node name="Explosion1"	 class="SgSoundSourceNode" id="S_EXPLOSION_GATE" looped="0" /> 
+		<Node name="100" class="SgParticlesNode" id="PS_VEN_EXP1_MED_MAIN3" psNumEmitterMesh="-1" />
+	</Node>
+
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
 	</Node>

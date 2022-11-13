@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <DynamicScene
-	LastId="5">
+	LastId="9">
 	<TargetNamesForDestroy
 		Names="" />
 
@@ -38,8 +38,8 @@
 		Name="Start_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="739.498 254.546 982.101"
-		Radius="18.000" />
+		Pos="740.170 254.546 983.857"
+		Radius="10.000" />
 
 	<Object
 		Name="Drop_loc"
@@ -54,4 +54,36 @@
 		Prototype="genericLocation"
 		Pos="1071.375 254.546 984.165"
 		Radius="20.000" />
+
+	<Object
+		Belong="1100"
+		Prototype="someRecollection" />
+
+	<Object
+		Name="SpawnEnemy2_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="735.456 254.546 1064.113"
+		Radius="10.000" />
+
+	<Object
+		Name="SpawnEnemy1_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="803.347 254.546 984.138"
+		Radius="10.000" />
+
+	<Object
+		Name="SpawnEnemy3_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="735.019 254.546 908.066"
+		Radius="10.000" />
+
+	<Object
+		Name="SpawnEnemy4_loc"
+		Belong="1001"
+		Prototype="genericLocation"
+		Pos="657.868 254.546 983.935"
+		Radius="10.000" />
 </DynamicScene>

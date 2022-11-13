@@ -5,6 +5,13 @@
 	<group id="SOUND2D"	volume="255" />
 
 	<group id="SOUND3D" volume="100">
+
+		<group
+			id		= "EXPLOSIONS_GATE"
+			volume	= "100" 
+			minDist	= "100"
+		/>
+
 		<group 
 			id		= "GUNFIRE" 
 			volume	= "160" 
