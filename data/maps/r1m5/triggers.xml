@@ -8,13 +8,54 @@
 		</script>
 	</trigger>
 
+<!-- Установка стандартных значений при запуске карты -->
 	<trigger Name="StartMap" active="1">
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
+			SetVar("SoundCreateKey",0)
 
+			TActivate("Tutorial")
+			TActivate("CreateKey_EntresLoc")
+
+			SetCameraBehindPlayerVehicle()
 		</script>
 	</trigger>
 
+	<trigger Name="Tutorial" active="0">
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			SpawnMessageBox("3")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Ambient" active="1">
+		<event 	timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_1", "ambient", -1, -1, CVector(745.285, 665.711, 1002.945), Quaternion(0, 0, 0, 1), 0)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Выход с карты -->
+	<trigger Name="ExitFromMap_loc" active="1">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Exit1_loc" />
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Exit2_loc" />
+		<script>
+			local b = SpawnMessageBox("2")
+			if b == 1 then
+				local vehPlayer = GetPlayerVehicle()
+				if vehPlayer then
+					vehPlayer:SetCustomControlEnabled( true )
+					vehPlayer:SetCustomLinearVelocity( 0 )
+					vehPlayer:SetThrottle( 0 )
+					vehPlayer:SetCustomControlEnabled( false )
+				end
+			end
+		</script>
+	</trigger>
+
+<!-- Создание ворот -->
 	<trigger Name="CreateGate" active="0">
 		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -43,6 +84,94 @@
 				if quay then quay:Remove() end
 			end
 			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Создание 'ключа' для начала испытания -->
+	<trigger Name="CreateKey_EntresLoc" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="CreateKey_loc" />
+		<script>
+			SetVar("SoundCreateKey",1)
+			TActivate("CreateKey")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="CreateKey" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			CreateNewSgNodeObject("quest_key_for_tunnel", "key", -1, -1, CVector(739.525, 265, 983.778), Quaternion(0.1880, 0.6772, -0.0383, 0.7104), 2)
+			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN6", "FxKey", -1, -1, CVector(739.957, 254.545, 984.051), Quaternion(0, 0, 0, 1), 0.2)
+
+			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 270, 983.778), Quaternion(0, 0, 0, 1), true)
+
+			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_KEY", "SdKey", -1, -1, CVector(739.957, 254.545, 984.051), Quaternion(0, 0, 0, 1), 0)
+
+			if GetVar("SoundCreateKey").AsInt==1 then
+				CreateEffectInsertedInRemove("ET_S_DUNGEON_CREATE_KEY", CVector(739.525, 275, 983.778), Quaternion(0, 0, 0, 1), true)
+				SetVar("SoundCreateKey",0)
+			end
+
+			TActivate("RotateKey")
+			TActivate("Start_YesOrNot")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RotateKey"	active="0">
+		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+
+			local k = getObj("key")
+			local zq = 	Quaternion(0, 0, 0, 1)
+			zq:RotY(RAD(0.2))
+			if k then
+			    local rot = k:GetRotation()
+            	k:SetRotation(zq*rot)
+			end
+			
+		</script>
+	</trigger>
+
+	<trigger Name="RemoveKey" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			local fx = GetEntityByName("FxKey")
+			if fx then fx:Remove() end
+
+			local sd = GetEntityByName("SdKey")
+			if sd then sd:Remove() end
+
+			TActivate("RemoveKey2")
+		
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="RemoveKey2" active="0">
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<script>
+			
+			local k = GetEntityByName("key")
+			if k then k:Remove() end
+			
+			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 270, 983.778), Quaternion(0, 0, 0, 1), true)
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+<!-- Начало испытания -->
+	<trigger Name="Start_YesOrNot" active="0">
+		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Start_loc" />
+		<script>
+			local b = SpawnMessageBox("1")
+			if b == 1 then
+				TActivate("RemoveKey")
+				trigger:Deactivate()
+			end
 		</script>
 	</trigger>
 

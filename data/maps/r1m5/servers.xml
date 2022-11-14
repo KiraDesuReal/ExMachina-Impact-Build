@@ -3997,6 +3997,12 @@
 	<ParticlesServer />
 
 	<SoundsServer>
+		<!-- Dungeon -->
+		<Item id="S_DUNGEON_CREATE_KEY" />
+		<Item id="S_DUNGEON_AMBIENT_1" />
+		<Item id="S_DUNGEON_AMBIENT_KEY" />
+
+		<!-- Crash -->
 		<Item id="S_CRASH_METAL01" />
 		<Item id="S_CRASH_METAL02" />
 		<Item id="S_CRASH_METAL03" />

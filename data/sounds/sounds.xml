@@ -1,5 +1,26 @@
 <?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
 <sounds>
+<!-- Dungeon --> 
+
+	<model
+		id="S_DUNGEON_AMBIENT_1"
+		file="data\sounds\dungeon\dungeon_ambient_1.wav"
+		group="AMBIENT_DUNGEON"
+	/>
+
+	<model
+		id="S_DUNGEON_AMBIENT_KEY"
+		file="data\sounds\dungeon\dungeon_ambient_key.wav"
+		group="AMBIENT_DUNGEON_KEY"
+	/>
+
+	<model
+		id="S_DUNGEON_CREATE_KEY"
+		file="data\sounds\dungeon\dungeon_key.wav"
+		group="CREATE_KEY"
+	/>
+
+
 <!-- Crash --> 
 
 	<model

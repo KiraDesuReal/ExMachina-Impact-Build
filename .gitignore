@@ -107,6 +107,9 @@ video.xml
 #dds
 !data/if/map/dungeon.dds
 !data/if/ico_hd/splashes/dungeon.dds
-#ogg
+#sounds
 !data/music/silence.ogg
+!data/sounds/dungeon/dungeon_key.wav
+!data/sounds/dungeon/dungeon_ambient_1.wav
+!data/sounds/dungeon/dungeon_ambient_key.wav
 
