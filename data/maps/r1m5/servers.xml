@@ -3986,6 +3986,15 @@
 		<Item
 			id="repair_robot"
 			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="post_challenge"
+			file="data\models\AnimModels.xml" />
+
+		<Item
+			id="post_challenge_sword"
+			file="data\models\AnimModels.xml" />
+
 	</AnimatedModelsServer>
 
 	<StaticModelsServer />
@@ -4001,6 +4010,7 @@
 		<Item id="S_DUNGEON_CREATE_KEY" />
 		<Item id="S_DUNGEON_AMBIENT_1" />
 		<Item id="S_DUNGEON_AMBIENT_KEY" />
+		<Item id="S_POST_CHALLENGE_ROTATE" />
 
 		<!-- Crash -->
 		<Item id="S_CRASH_METAL01" />

@@ -20,6 +20,12 @@
 		group="CREATE_KEY"
 	/>
 
+	<model
+		id="S_POST_CHALLENGE_ROTATE"
+		file="data\sounds\dungeon\post_challenge_rotate.wav"
+		group="AMBIENT_DUNGEON_KEY"
+	/>
+
 
 <!-- Crash --> 
 

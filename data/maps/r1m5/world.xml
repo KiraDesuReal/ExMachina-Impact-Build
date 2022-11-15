@@ -2525,15 +2525,16 @@
 	<Node
 		name="Object314495996"
 		class="SgAnimatedModelNode"
-		org="739.594 -10.020 984.016"
+		org="739.503 -8.072 983.914"
 		orgRel="1"
+		scale="0.800 0.800 0.800"
 		id="quay_cube"
 		ndmAction="0" />
 
 	<Node
 		name="Object314496001"
 		class="SgParticlesNode"
-		org="733.913 0.243 978.105"
+		org="735.069 0.207 979.195"
 		orgRel="1"
 		scale="0.400 0.400 0.400"
 		id="PS_LENS_D6"
@@ -2542,7 +2543,7 @@
 	<Node
 		name="Object314496002"
 		class="SgParticlesNode"
-		org="745.741 0.243 978.105"
+		org="744.282 0.207 979.195"
 		orgRel="1"
 		scale="0.400 0.400 0.400"
 		id="PS_LENS_D6"
@@ -2551,7 +2552,7 @@
 	<Node
 		name="Object314496003"
 		class="SgParticlesNode"
-		org="733.913 0.243 989.793"
+		org="735.069 0.207 988.228"
 		orgRel="1"
 		scale="0.400 0.400 0.400"
 		id="PS_LENS_D6"
@@ -2560,7 +2561,7 @@
 	<Node
 		name="Object314496004"
 		class="SgParticlesNode"
-		org="745.741 0.243 989.793"
+		org="744.282 0.243 988.228"
 		orgRel="1"
 		scale="0.400 0.400 0.400"
 		id="PS_LENS_D6"

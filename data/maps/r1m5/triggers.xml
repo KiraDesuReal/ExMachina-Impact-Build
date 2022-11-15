@@ -4,6 +4,7 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			CreateNewDummyObject("post_challenge", "post", -1, -1, CVector(739.525, 254.800, 983.778), Quaternion(0, 0, 0, 1), 0)
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -13,6 +14,7 @@
 		<event eventid="GE_GAME_START" ObjName="Player1" />
 		<script>
 			SetVar("SoundCreateKey",0)
+			SetVar("RotateKey",0)
 
 			TActivate("Tutorial")
 			TActivate("CreateKey_EntresLoc")
@@ -100,13 +102,12 @@
 	<trigger Name="CreateKey" active="0">
 		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
-			CreateNewSgNodeObject("quest_key_for_tunnel", "key", -1, -1, CVector(739.525, 265, 983.778), Quaternion(0.1880, 0.6772, -0.0383, 0.7104), 2)
-			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN6", "FxKey", -1, -1, CVector(739.957, 254.545, 984.051), Quaternion(0, 0, 0, 1), 0.2)
+	
+			CreateNewDummyObject("post_challenge_sword", "sword", -1, -1, CVector(739.525, 254, 983.778), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 0)
+			CreateNewSgNodeObject("ET_PS_LENS_D1", "frame_red", -1, -1, CVector(739.525, 257.100, 983.778), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 1)
+			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 265, 983.778), Quaternion(0, 0, 0, 1), true)
 
-			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 270, 983.778), Quaternion(0, 0, 0, 1), true)
-
-			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_KEY", "SdKey", -1, -1, CVector(739.957, 254.545, 984.051), Quaternion(0, 0, 0, 1), 0)
-
+			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_KEY", "SdKey", -1, -1, CVector(739.957, 254, 984.051), Quaternion(0, 0, 0, 1), 0)
 			if GetVar("SoundCreateKey").AsInt==1 then
 				CreateEffectInsertedInRemove("ET_S_DUNGEON_CREATE_KEY", CVector(739.525, 275, 983.778), Quaternion(0, 0, 0, 1), true)
 				SetVar("SoundCreateKey",0)
@@ -123,9 +124,13 @@
 		<event	timeout="0.01"		eventid="GE_TIME_PERIOD" />
 		<script>
 
-			local k = getObj("key")
+			local k = getObj("sword")
 			local zq = 	Quaternion(0, 0, 0, 1)
-			zq:RotY(RAD(0.2))
+			if GetVar("RotateKey").AsInt==0 then
+				zq:RotY(RAD(0.2))
+			else 
+				zq:RotY(RAD(1.2))
+			end
 			if k then
 			    local rot = k:GetRotation()
             	k:SetRotation(zq*rot)
@@ -138,27 +143,105 @@
 		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
 			
-			local fx = GetEntityByName("FxKey")
-			if fx then fx:Remove() end
+			local k = GetEntityByName("sword")
+			if k then k:Remove() end
+
+			local kf = GetEntityByName("frame_red")
+			if kf then kf:Remove() end
 
 			local sd = GetEntityByName("SdKey")
 			if sd then sd:Remove() end
+			
+			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 265, 983.778), Quaternion(0, 0, 0, 1), true)
 
-			TActivate("RemoveKey2")
-		
+			TDeactivate("RotateKey")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="RemoveKey2" active="0">
-		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+<!-- Активация\Деактивация 'ключа' -->
+	<trigger Name="ActivateKey" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
-			
-			local k = GetEntityByName("key")
-			if k then k:Remove() end
-			
-			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 270, 983.778), Quaternion(0, 0, 0, 1), true)
 
+			SetVar("RotateKey",1)
+			
+			local kf = GetEntityByName("frame_red")
+			if kf then kf:Remove() end
+
+			local p = GetEntityByName("post")
+			if p then p:SetSkin(1) end
+
+			local sw = GetEntityByName("sword")
+			if sw then sw:SetSkin(1) end
+
+			local sd = GetEntityByName("SdKey")
+			if sd then sd:Remove() end
+
+			CreateNewSgNodeObject("ET_PS_LENS_D5", "frame_blue", -1, -1, CVector(739.525, 257.100, 983.778), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 1)
+			CreateNewSgNodeObject("ET_S_POST_CHALLENGE_ROTATE", "SdPostRot", -1, -1, CVector(739.957, 254, 984.051), Quaternion(0, 0, 0, 1), 0)
+
+			TActivate("SwordUp")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SwordUp" active="0">
+		<event 	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local sw = getObj("sword")
+			local swCoor = sw:GetPosition()
+			swCoor.y = swCoor.y + 0.015
+			sw:SetPosition(swCoor)
+
+			TActivate("DeaSword_Y")
+		</script>
+	</trigger>
+
+	<trigger Name="SwordDown" active="0">
+		<event 	timeout="0.01"		eventid="GE_TIME_PERIOD" />
+		<script>
+			local sw = getObj("sword")
+			local swCoor = sw:GetPosition()
+			swCoor.y = swCoor.y - 0.015
+			sw:SetPosition(swCoor)
+
+			TActivate("DeaSword_Y")
+		</script>
+	</trigger>
+
+	<trigger Name="DeaSword_Y" active="0">
+		<event 	timeout="0.5"		eventid="GE_TIME_PERIOD" />
+		<script>
+			TDeactivate("SwordUp")
+			TDeactivate("SwordDown")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="DeActivateKey" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			SetVar("RotateKey",0)
+			
+			local kf = GetEntityByName("frame_blue")
+			if kf then kf:Remove() end
+
+			local p = GetEntityByName("post")
+			if p then p:SetSkin(0) end
+
+			local sw = GetEntityByName("sword")
+			if sw then sw:SetSkin(0) end
+
+			local sd = GetEntityByName("SdPostRot")
+			if sd then sd:Remove() end
+
+			CreateNewSgNodeObject("ET_PS_LENS_D1", "frame_red", -1, -1, CVector(739.525, 257.100, 983.778), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 1)
+			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_KEY", "SdKey", -1, -1, CVector(739.957, 254, 984.051), Quaternion(0, 0, 0, 1), 0)
+			
+			TActivate("SwordDown")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -169,7 +252,8 @@
 		<script>
 			local b = SpawnMessageBox("1")
 			if b == 1 then
-				TActivate("RemoveKey")
+				TActivate("CreateGate")
+				TActivate("ActivateKey")
 				trigger:Deactivate()
 			end
 		</script>

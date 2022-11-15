@@ -38,8 +38,8 @@
 		Name="Start_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="740.170 254.546 983.857"
-		Radius="10.000" />
+		Pos="739.442 254.546 983.184"
+		Radius="7.000" />
 
 	<Object
 		Name="Drop_loc"

@@ -36,6 +36,10 @@
 		<Node name="1"	 class="SgSoundSourceNode" id="S_DUNGEON_AMBIENT_KEY" looped="1" /> 
 	</Node>
 
+	<Node name="ET_S_POST_CHALLENGE_ROTATE" class="SgNode">
+		<Node name="1"	 class="SgSoundSourceNode" id="S_POST_CHALLENGE_ROTATE" looped="1" /> 
+	</Node>
+
 <!-- Standart effects -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />
