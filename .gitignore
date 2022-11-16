@@ -113,6 +113,7 @@ video.xml
 !data/sounds/dungeon/dungeon_ambient_1.wav
 !data/sounds/dungeon/dungeon_ambient_key.wav
 !data/sounds/dungeon/post_challenge_rotate.wav
+!data/sounds/dungeon/dungeon_start.wav
 #models
 !data/models/buildings/domain/post_challenge/post_challenge.gam
 !data/models/buildings/domain/post_challenge/post_challenge1.dds
@@ -120,4 +121,7 @@ video.xml
 !data/models/buildings/domain/post_challenge/post_challenge_sword.gam
 !data/models/buildings/domain/post_challenge/sword_red.dds
 !data/models/buildings/domain/post_challenge/sword_blue.dds
+#music
+!data/music/dungeons/sumeru_battle_1.ogg
+!data/music/dungeons/sumeru_battle_2.ogg
 

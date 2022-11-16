@@ -15,6 +15,7 @@
 		<script>
 			SetVar("SoundCreateKey",0)
 			SetVar("RotateKey",0)
+			SetVar("Score",0)
 
 			TActivate("Tutorial")
 			TActivate("CreateKey_EntresLoc")
@@ -254,8 +255,320 @@
 			if b == 1 then
 				TActivate("CreateGate")
 				TActivate("ActivateKey")
+				TActivate("StartChallenge")
 				trigger:Deactivate()
 			end
+		</script>
+	</trigger>
+
+	<trigger Name="StartChallenge" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+			AddImportantFadingMsgByStrIdFormatted("fm_start_challenge")
+
+			local randMusic = random(2)
+			PlayCustomMusic ("sumeru_battle_"..randMusic)
+
+			local Plf = GetPlayerVehicle()
+			local PlfCoor = Plf:GetPosition()
+			if Plf then
+				CreateEffectInsertedInRemove("ET_S_DUNGEON_START", PlfCoor, Quaternion(0, 0, 0, 1), true)
+			end
+			
+			local randCar = random(3)
+			local RandomSmlList = {"Sml101", "Sml201", "Sml301", "Sml401"}
+			local RandomSml = getn(RandomSmlList)
+
+			TeamCreate("Enemy1", 1002, CVector(getPos("SpawnEnemy1_loc")), {RandomSmlList[exrandom(RandomSml)], RandomSmlList[exrandom(RandomSml)], RandomSmlList[exrandom(RandomSml)]}, nil, 0)
+
+			for i=0,2 do
+				local Enemy = GetEntityByName ("Enemy1_vehicle_"..i)
+				local EnCoor = Enemy:GetPosition()
+				if Enemy then 
+					Enemy:SetRotation(Quaternion(-0.002, -0.723, -0.003, 0.691))
+					Enemy:setImmortalMode(1)
+					CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", EnCoor, Quaternion(0, 0, 0, 1), true)
+				end
+				TActivate("Enemy"..i.."_Dead")
+			end
+
+			TActivate("EnemyFaze1_AllDead")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy0_Dead" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy1_vehicle_0" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy1_vehicle_0")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy1_Dead" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy1_vehicle_1" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy1_vehicle_1")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy2_Dead" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy1_vehicle_2" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy1_vehicle_2")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="EnemyFaze1_AllDead" active="0">
+		<event eventid="GE_OBJECT_DIE" ObjName="Enemy1_vehicle_0" />
+		<event eventid="GE_OBJECT_DIE" ObjName="Enemy1_vehicle_1" />
+		<event eventid="GE_OBJECT_DIE" ObjName="Enemy1_vehicle_2" />
+		<script>
+
+			trigger:IncCount()
+			local count = trigger:GetCount()
+			if 3>count then
+			return
+			end
+
+			TActivate("ChallengeFaze2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="ChallengeFaze2" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
+		<script>
+	
+			local RandomLocList = {"SpawnEnemy1_loc", "SpawnEnemy2_loc", "SpawnEnemy3_loc", "SpawnEnemy4_loc"}
+			local RandomLoc = random(4)
+
+			local Rotate = ""
+			local RandomCarList = ""
+			local RandomCar = ""
+
+			if RandomLoc == 1 then
+				Rotate = Quaternion(0.007, 0.711, 0.007, -0.703)
+			elseif RandomLoc == 2 then
+				Rotate = Quaternion(0.000, 1.000, 0.009, 0.011)
+			elseif RandomLoc == 3 then
+				Rotate = Quaternion(0.009, 0.008, -0.000, -1.000)
+			elseif RandomLoc == 4 then
+				Rotate = Quaternion(0.007, -0.701, -0.007, -0.713)
+			end
+
+			local l = GetVar("Score").AsInt
+	
+			if (150 >= l) then
+				RandomCarList = {"Sml101", "Sml201", "Sml301", "Sml401"}
+				RandomCar = getn(RandomCarList)
+				println("150 > l")
+			elseif (l >= 2000) then
+				RandomCarList = {"Mirotvorec01", "Dozer01", "Cruiser01", "Cruiser02", "CoolBelaz_2"}
+				RandomCar = getn(RandomCarList)
+				println("l > 2000")
+			elseif (l >= 1700) then
+				RandomCarList = {"Mirotvorec01", "Cruiser01", "Cruiser02", "CoolBelaz_2", "r2m1_Belaz01", "Gladiator02"}
+				RandomCar = getn(RandomCarList)
+				println("l > 1700")
+			elseif (l >= 1500) then
+				RandomCarList = {"Belaz01", "CoolBelaz_2", "CoolBelaz", "BelazShot", "r2m1_Belaz01", "Gladiator02", "r2m1_Ural01", "r2m2_Ural01"}
+				RandomCar = getn(RandomCarList)
+				println("l > 1500")
+			elseif (l >= 1200) then
+				RandomCarList = {"Ural00", "Ural01", "Ural02", "UralShot", "r2m1_Ural01", "r2m2_Ural01"}
+				RandomCar = getn(RandomCarList)
+				println("l > 1200")
+			elseif (l >= 1000) then
+				RandomCarList = {"r1m1_molokovoz02", "r2m1_Molokovoz01", "r2m2_Molokovoz01", "r1m1_molokovoz01", "r1m1_molokovoz03"}
+				RandomCar = getn(RandomCarList)
+				println("l > 1000")
+			elseif (l >= 800) then
+				RandomCarList = {"r1m2_bug04", "Bug02", "PublicDemoBug01", "Hunter01", "r2m1_HunterNarcBoss", "r2m2_ShamanHunter01", "Fighter02", "r1m3_Fighter02", "r2m1_FighterGulik", "r2m1_FighterNarcCaravan"}
+				RandomCar = getn(RandomCarList)
+				println("l > 800")
+			elseif (l >= 550) then
+				RandomCarList = {"Bug01", "r1m1_bug02", "r1m1_bug03", "r1m2_bug04", "Bug02", "PublicDemoBug01", "r2m1_Hunter01", "r2m2_ShamanHunter02"}
+				RandomCar = getn(RandomCarList)
+				println("l > 550")
+			elseif (l >= 300) then
+				RandomCarList = {"Scout02", "Scout03", "r1m1_scout03", "FelixVehicle", "Fighter01", "DemoFighter1", "Fighter03", "r2m2_ShamanHunter02"}
+				RandomCar = getn(RandomCarList)
+				println("l > 300")
+			elseif (l >= 150) then
+				RandomCarList = {"Sml101", "Sml201", "Sml301", "Sml401", "Scout01", "Scout02", "Scout03", "r1m1_scout03", "r1m1_scout02", "r2m2_scout01", "FelixVehicle", "Fighter01"}
+				RandomCar = getn(RandomCarList)
+				println("l > 150")
+			end
+
+			local randCar = random(4)
+			local Car = ""
+
+			if randCar == 1 then
+				Car = {RandomCarList[exrandom(RandomCar)]}
+			elseif randCar == 2 then
+				Car = {RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)]}
+			elseif randCar == 3 then
+				Car = {RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)]}
+			elseif randCar == 4 then
+				Car = {RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)], RandomCarList[exrandom(RandomCar)]}
+			end
+
+			TeamCreate("Enemy2", 1002, CVector(getPos(RandomLocList[RandomLoc])), Car, nil, 0, Rotate)
+			
+			local forI = randCar - 1
+
+			for i=0,forI do
+				local Enemy = GetEntityByName ("Enemy2_vehicle_"..i)
+				local EnCoor = Enemy:GetPosition()
+				if Enemy then 
+					Enemy:setImmortalMode(1)
+					CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", EnCoor, Quaternion(0, 0, 0, 1), true)
+				end
+				TActivate("Enemy"..i.."_DeadFaze2")
+			end
+
+			TActivate("EnemyFaze2_AllDead")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy0_DeadFaze2" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy2_vehicle_0" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy2_vehicle_0")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy1_DeadFaze2" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy2_vehicle_1" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy2_vehicle_1")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy2_DeadFaze2" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy2_vehicle_2" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy2_vehicle_2")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="Enemy3_DeadFaze2" active="0">
+		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy2_vehicle_3" />
+		<script>
+
+			local EnemyQ1 = GetEntityByName ("Enemy2_vehicle_3")
+			local EnCoor1 = EnemyQ1:GetPosition()
+			if EnemyQ1 then 
+				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
+				EnemyQ1:Remove()
+			end
+				
+			local sc = 50
+			local l = GetVar("Score").AsInt
+			l = l + sc
+
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			SetVar("Score",l)
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="EnemyFaze2_AllDead" active="0">
+		<event 	timeout="3" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			if getObj("Enemy0_DeadFaze2"):IsActivated()==0 and getObj("Enemy1_DeadFaze2"):IsActivated()==0 and getObj("Enemy2_DeadFaze2"):IsActivated()==0 and getObj("Enemy3_DeadFaze2"):IsActivated()==0 then
+				trigger:Deactivate()
+				TActivate("ChallengeFaze2")
+			end
+		
 		</script>
 	</trigger>
 

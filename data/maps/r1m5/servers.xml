@@ -4011,6 +4011,8 @@
 		<Item id="S_DUNGEON_AMBIENT_1" />
 		<Item id="S_DUNGEON_AMBIENT_KEY" />
 		<Item id="S_POST_CHALLENGE_ROTATE" />
+		<Item id="S_POST_CHALLENGE" />
+		<Item id="S_DUNGEON_START" />
 
 		<!-- Crash -->
 		<Item id="S_CRASH_METAL01" />

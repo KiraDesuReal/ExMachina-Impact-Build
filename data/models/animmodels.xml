@@ -18935,6 +18935,7 @@
 		file="data\models\buildings\domain\post_challenge\post_challenge_sword.gam"
 		shadow="1"
 		windwavy="0"
-		trans="0" />
+		trans="0">
+	</model>
 
 </AnimatedModels>

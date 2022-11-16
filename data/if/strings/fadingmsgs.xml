@@ -167,4 +167,12 @@
 	<string
 		id="fm_items_remained_on_ground"
 		value="Не хватает места в кузове. Для вызова окна снаряжения нажмите %1m." />
+
+	<string
+		id="fm_start_challenge"
+		value="Испытание началось!" />
+
+	<string
+		id="fm_challenge_score"
+		value="Очки %1d" />
 </resource>

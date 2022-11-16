@@ -26,6 +26,18 @@
 		group="AMBIENT_DUNGEON_KEY"
 	/>
 
+	<model
+		id="S_POST_CHALLENGE"
+		file="data\sounds\dungeon\post_challenge1.wav"
+		group="AMBIENT_DUNGEON_KEY"
+	/>
+
+	<model
+		id="S_DUNGEON_START"
+		file="data\sounds\dungeon\dungeon_start.wav"
+		group="SOUND2D"
+	/>
+
 
 <!-- Crash --> 
 

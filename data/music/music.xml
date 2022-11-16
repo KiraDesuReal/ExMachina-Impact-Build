@@ -10,7 +10,18 @@
 		id="silence"
 		file="data\music\silence.ogg"
 		/>
-		
+
+	<!-- Dungeons -->
+
+	<model
+		id="sumeru_battle_1"
+		file="data\music\dungeons\sumeru_battle_1.ogg"
+		/>
+
+	<model
+		id="sumeru_battle_2"
+		file="data\music\dungeons\sumeru_battle_2.ogg"
+		/>
 		
 	<!-- Towns -->
 	<model

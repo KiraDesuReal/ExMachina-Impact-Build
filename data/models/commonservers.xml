@@ -601,6 +601,9 @@
 
 		<Item id="silence" />
 
+		<!-- Dungeons -->	
+		<Item id="sumeru_battle_1" />
+		<Item id="sumeru_battle_2" />
 
 		<!-- Towns -->	
 		<Item id="bar" />
