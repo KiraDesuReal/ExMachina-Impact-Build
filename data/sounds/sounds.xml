@@ -38,6 +38,12 @@
 		group="SOUND2D"
 	/>
 
+	<model
+		id="S_DUNGEON_COMPLETE_CHALLENGE"
+		file="data\sounds\dungeon\dungeon_complete_challenge.wav"
+		group="SOUND2D"
+	/>
+
 
 <!-- Crash --> 
 

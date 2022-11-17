@@ -1685,6 +1685,49 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 		</Parts>
 	</Prototype>
 
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Ural3"
+		ParentPrototype 	= "Ural">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "uralCab02" />
+			<Part id = "BASKET"			Prototype = "uralCargo02" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Ural4"
+		ParentPrototype 	= "Ural">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "uralCab03" />
+			<Part id = "BASKET"			Prototype = "uralCargo03" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Ural5"
+		ParentPrototype 	= "Ural">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "uralCab05" />
+			<Part id = "BASKET"			Prototype = "uralCargo05" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "UralForTest"
+		ParentPrototype 	= "Ural">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "uralCab05" />
+			<Part id = "BASKET"			Prototype = "uralCargo03" />
+			<Part id = "CABIN_BIG_GUN_1"		Prototype = "rainmetal01" />
+			<Part id = "CABIN_BIG_GUN_2"		Prototype = "rainmetal01" /> 
+			<Part id = "BASKET_BIG_GUN_0"		Prototype = "rainmetal01" />
+			<Part id = "BASKET_GIANT_GUN" 	Prototype = "octopus01" />
+		</Parts>
+	</Prototype>
 
 	<Prototype
 		Class			= "Vehicle"
@@ -1700,12 +1743,92 @@ $Id: Vehicles.xml,v 1.123 2005/11/28 07:43:58 anton Exp $
 
 	<Prototype
 		Class			= "Vehicle"
+		Name			= "Belaz2"
+		ParentPrototype		= "Belaz">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "belazCab02" />
+			<Part id = "BASKET"			Prototype = "belazCargo02" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Belaz3"
+		ParentPrototype		= "Belaz">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "belazCab03" />
+			<Part id = "BASKET"			Prototype = "belazCargo03" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Belaz4"
+		ParentPrototype		= "Belaz">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "belazCab04" />
+			<Part id = "BASKET"			Prototype = "belazCargo04" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Belaz5"
+		ParentPrototype		= "Belaz">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "belazCab05" />
+			<Part id = "BASKET"			Prototype = "belazCargo05" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
 		Name			= "Mirotvorec01"
 		ParentPrototype 	= "Mirotvorec">
 		<Parts>
 			<Part id = "CABIN"			Prototype = "mirotvorecCab03" />
 			<Part id = "BASKET" 			Prototype = "mirotvorecCargo03" />
 			<Part id = "CABIN_BIG_GUN_1"		Prototype = "vulcan01" /> 
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Mirotvorec2"
+		ParentPrototype 	= "Mirotvorec">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "mirotvorecCab01" />
+			<Part id = "BASKET" 			Prototype = "mirotvorecCargo01" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Mirotvorec3"
+		ParentPrototype 	= "Mirotvorec">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "mirotvorecCab02" />
+			<Part id = "BASKET" 			Prototype = "mirotvorecCargo02" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Mirotvorec4"
+		ParentPrototype 	= "Mirotvorec">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "mirotvorecCab04" />
+			<Part id = "BASKET" 			Prototype = "mirotvorecCargo04" />
+		</Parts>
+	</Prototype>
+
+	<Prototype
+		Class			= "Vehicle"
+		Name			= "Mirotvorec5"
+		ParentPrototype 	= "Mirotvorec">
+		<Parts>
+			<Part id = "CABIN"			Prototype = "mirotvorecCab05" />
+			<Part id = "BASKET" 			Prototype = "mirotvorecCargo05" />
 		</Parts>
 	</Prototype>
 

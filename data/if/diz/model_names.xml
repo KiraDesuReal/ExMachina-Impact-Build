@@ -566,7 +566,42 @@
 		value="Белаз" />
 
 	<Item
+		id="Belaz2"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="Belaz3"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="Belaz4"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
+		id="Belaz5"
+		locForm="0"
+		value="Белаз" />
+
+	<Item
 		id="UralForSale"
+		locForm="0"
+		value="Урал" />
+
+	<Item
+		id="Ural3"
+		locForm="0"
+		value="Урал" />
+
+	<Item
+		id="Ural4"
+		locForm="0"
+		value="Урал" />
+
+	<Item
+		id="Ural5"
 		locForm="0"
 		value="Урал" />
 
@@ -1007,6 +1042,26 @@
 
 	<Item
 		id="Mirotvorec01"
+		locForm="0"
+		value="Миротворец" />
+
+	<Item
+		id="Mirotvorec2"
+		locForm="0"
+		value="Миротворец" />
+
+	<Item
+		id="Mirotvorec3"
+		locForm="0"
+		value="Миротворец" />
+
+	<Item
+		id="Mirotvorec4"
+		locForm="0"
+		value="Миротворец" />
+
+	<Item
+		id="Mirotvorec5"
 		locForm="0"
 		value="Миротворец" />
 

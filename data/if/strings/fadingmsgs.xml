@@ -175,4 +175,24 @@
 	<string
 		id="fm_challenge_score"
 		value="Очки %1d" />
+
+	<string
+		id="fm_dungeon_timer"
+		value="Осталось %1d секунд" />
+
+	<string
+		id="fm_complete_challenge"
+		value="Испытание выполнено!" />
+
+	<string
+		id="fm_done_challenge"
+		value="Испытание завершено!" />
+
+	<string
+		id="fm_challenge_your_record"
+		value="Ваш рекорд: %1d" />
+
+	<string
+		id="fm_challenge_your_score"
+		value="Вы набрали: %1d" />
 </resource>

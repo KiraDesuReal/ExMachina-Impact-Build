@@ -1340,4 +1340,40 @@ function RestoreAllToleranceStatus()
     end
 end
 
+function GunsForEnemy(enemy, smallguns, bigguns, giantgun, sidegun)
+	
+	local veh=enemy
+	local parts={"CABIN_","BASKET_","CHASSIS_"}
+	local slots={"SMALL_","BIG_","GIANT_","SIDE_"}
+	local guns={"GUN","GUN_0","GUN_1","GUN_2"}
+	local i,j,k=1,1,1
+	while parts[i] do
+		while slots[j] do
+			while guns[k] do
+
+				local gun=1
+				local slot=parts[i]..slots[j]..guns[k]
+				if j==1 then
+					gun=smallguns
+				elseif j==2 then
+					gun=bigguns
+				elseif j==3 then
+					gun=giantgun
+				elseif j==4 then
+					gun=sidegun
+				end
+	
+				if veh:CanPartBeAttached(slot) then		
+					veh:SetNewPart(slot,gun)
+				end
+				k=k+1
+			end
+			k=1
+			j=j+1
+		end
+		j=1
+		i=i+1
+	end
+end
+
 
