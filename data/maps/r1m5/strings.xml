@@ -16,4 +16,9 @@
 		value="Наберите как можно больше очков побеждая врагов."
 		numButtons="1" />
 
+	<string
+		id="4"
+		value="Повторить испытание?"
+		numButtons="2" />
+
 </resource>

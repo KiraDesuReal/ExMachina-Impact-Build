@@ -52,6 +52,14 @@
 		<Node name="1"	 class="SgSoundSourceNode" id="S_DUNGEON_COMPLETE_CHALLENGE" looped="0" /> 
 	</Node>
 
+	<Node name="ET_S_DUNGEON_FAIL_CHALLENGE" class="SgNode">
+		<Node name="1"	 class="SgSoundSourceNode" id="S_DUNGEON_FAIL_CHALLENGE" looped="0" /> 
+	</Node>
+
+	<Node name="ET_S_DUNGEON_AMBIENT_DROP" class="SgNode">
+		<Node name="1"	 class="SgSoundSourceNode" id="S_DUNGEON_AMBIENT_DROP" looped="1" /> 
+	</Node>
+
 <!-- Standart effects -->
 	<Node name="ET_PS_ROCKSFAKE1" class="SgNode">
 		<Node name="Object1" class="SgParticlesNode" id="PS_SPECIAL01_FIRE_MAIN_1" psNumEmitterMesh="-1" />

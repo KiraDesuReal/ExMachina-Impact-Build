@@ -3968,6 +3968,8 @@
 		<Item id="S_POST_CHALLENGE" />
 		<Item id="S_DUNGEON_START" />
 		<Item id="S_DUNGEON_COMPLETE_CHALLENGE" />
+		<Item id="S_DUNGEON_FAIL_CHALLENGE" />
+		<Item id="S_DUNGEON_AMBIENT_DROP" />
 
 		<!-- Crash -->
 		<Item id="S_CRASH_METAL01" />

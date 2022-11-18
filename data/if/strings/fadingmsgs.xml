@@ -174,7 +174,7 @@
 
 	<string
 		id="fm_challenge_score"
-		value="Очки %1d" />
+		value="@ffffc600Счёт %1d @ff72ff00+%2d" />
 
 	<string
 		id="fm_dungeon_timer"
@@ -190,9 +190,22 @@
 
 	<string
 		id="fm_challenge_your_record"
-		value="Ваш рекорд: %1d" />
+		value="@ffffc600Ваш рекорд: %1d" />
 
 	<string
 		id="fm_challenge_your_score"
-		value="Вы набрали: %1d" />
+		value="@ffffc600Вы набрали: %1d" />
+
+	<string
+		id="fm_challenge_kill_2"
+		value="Двойное убийство!" />
+
+	<string
+		id="fm_challenge_kill_3"
+		value="Тройное убийство!" />
+	
+	<string
+		id="fm_challenge_kill_4"
+		value="Четыре убийства!" />
+
 </resource>

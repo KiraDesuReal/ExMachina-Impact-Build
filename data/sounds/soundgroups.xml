@@ -30,6 +30,12 @@
 			minDist	= "20"
 		/>
 
+		<group
+			id		= "AMBIENT_DUNGEON_DROP"
+			volume	= "255" 
+			minDist	= "50"
+		/>
+
 		<group 
 			id		= "GUNFIRE" 
 			volume	= "160" 

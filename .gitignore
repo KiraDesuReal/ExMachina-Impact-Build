@@ -115,6 +115,8 @@ video.xml
 !data/sounds/dungeon/post_challenge_rotate.wav
 !data/sounds/dungeon/dungeon_start.wav
 !data/sounds/dungeon/dungeon_complete_challenge.wav
+!data/sounds/dungeon/dungeon_fail_challenge.wav
+!data/sounds/dungeon/dungeon_ambient_drop.wav
 #models
 !data/models/buildings/domain/post_challenge/post_challenge.gam
 !data/models/buildings/domain/post_challenge/post_challenge1.dds

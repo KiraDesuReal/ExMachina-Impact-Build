@@ -44,6 +44,17 @@
 		group="SOUND2D"
 	/>
 
+	<model
+		id="S_DUNGEON_FAIL_CHALLENGE"
+		file="data\sounds\dungeon\dungeon_fail_challenge.wav"
+		group="SOUND2D"
+	/>
+
+	<model
+		id="S_DUNGEON_AMBIENT_DROP"
+		file="data\sounds\dungeon\dungeon_ambient_drop.wav"
+		group="AMBIENT_DUNGEON_DROP"
+	/>
 
 <!-- Crash --> 
 

@@ -17,7 +17,10 @@
 			SetVar("SoundCreateKey",0)
 			SetVar("RotateKey",0)
 			SetVar("Score",0)
+			SetVar("ScoreUP",50)
 			SetVar("PlayerDie",0)
+			SetVar("ChallengeComplete", 0)
+			SetVar("Combo", 0)
 
 			local p = GetEntityByName("post")
 			if p then p:SetSkin(0) end
@@ -34,6 +37,9 @@
 
 			TActivate("Tutorial")
 			TActivate("CreateKey_EntresLoc")
+			TActivate("Ambient")
+			TActivate("RemoveKey")
+			TActivate("RemoveKeyUnActive")
 
 			SetCameraBehindPlayerVehicle()
 		</script>
@@ -47,7 +53,7 @@
 		</script>
 	</trigger>
 
-	<trigger Name="Ambient" active="1">
+	<trigger Name="Ambient" active="0">
 		<event 	timeout="0.5" eventid="GE_TIME_PERIOD" />
 		<script>
 			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_1", "ambient", -1, -1, CVector(745.285, 665.711, 1002.945), Quaternion(0, 0, 0, 1), 0)
@@ -192,7 +198,7 @@
 			if sd then sd:Remove() end
 			
 			CreateEffectInsertedInRemove("ET_PS_DRONE_EX_D", CVector(739.525, 265, 983.778), Quaternion(0, 0, 0, 1), true)
-
+		
 			TDeactivate("RotateKey")
 
 			trigger:Deactivate()
@@ -205,6 +211,11 @@
 		<script>
 
 			SetVar("RotateKey",1)
+
+			if GetVar("ChallengeComplete").AsInt==1 then
+				CreateNewDummyObject("post_challenge_sword", "sword", -1, -1, CVector(739.525, 254, 983.778), Quaternion(0.0000, 0.7071, 0.0000, 0.7071), 0)
+				TActivate("RotateKey")
+			end
 			
 			local kf = GetEntityByName("frame_red")
 			if kf then kf:Remove() end
@@ -289,19 +300,33 @@
 	<trigger Name="Start_YesOrNot" active="0">
 		<event eventid="GE_OBJECT_ENTERS_LOCATION" ObjName="Start_loc" />
 		<script>
-			local b = SpawnMessageBox("1")
+
+			local s
+
+			if GetVar("ChallengeComplete").AsInt==1 then
+				s = 4
+			else
+				s = 1
+			end 
+
+			local b = SpawnMessageBox(s)
 			if b == 1 then
 				TActivate("CreateGate")
 				TActivate("ActivateKey")
 				TActivate("StartChallenge")
 				trigger:Deactivate()
 			end
+
 		</script>
 	</trigger>
 
 	<trigger Name="StartChallenge" active="0">
 		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
+
+			SetVar("Score", 0)
+			SetVar("ScoreUP", 50)
+		
 			AddImportantFadingMsgByStrIdFormatted("fm_start_challenge")
 
 			local randMusic = random(2)
@@ -324,12 +349,45 @@
 	</trigger>
 
 <!-- Спавн врагов -->
-	<trigger Name="ChallengeFaze2" active="0">
+	<trigger Name="SpawnEnemyInloc" active="0">
 		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
 
 			local l = GetVar("Score").AsInt
 			
+			local RandomLoc = ""
+			local RandomLocList = {"SpawnEnemy1_loc", "SpawnEnemy2_loc", "SpawnEnemy3_loc", "SpawnEnemy4_loc"}
+			
+			if l == 0 then
+				RandomLoc = 1
+			else
+				RandomLoc = random(4)
+			end
+
+			SetVar("Loc", RandomLoc)
+
+			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN6", "FxSpawnEnemys", -1, -1, CVector(getPos(RandomLocList[RandomLoc])), Quaternion(0, 0, 0, 1), 0.3)
+
+			TActivate("SpawnEnemyInloc_2")
+
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="SpawnEnemyInloc_2" active="0">
+		<event 	timeout="2" eventid="GE_TIME_PERIOD" />
+		<script>
+			TActivate("ChallengeFaze2")
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="ChallengeFaze2" active="0">
+		<event 	timeout="0.1" eventid="GE_TIME_PERIOD" />
+		<script>
+
+			local l = GetVar("Score").AsInt
+
 			local RandomLoc = ""
 			local RandomLocList = {"SpawnEnemy1_loc", "SpawnEnemy2_loc", "SpawnEnemy3_loc", "SpawnEnemy4_loc"}
 
@@ -338,7 +396,7 @@
 			else
 				RandomLoc = random(4)
 			end
-
+			
 			local Rotate = ""
 			local RandomCarList = ""
 			local RandomCar = ""
@@ -356,43 +414,42 @@
 			if (150 >= l) then
 				RandomCarList = {"Sml101", "Sml201", "Sml301", "Sml401"}
 				RandomCar = getn(RandomCarList)
-				println("150 > l")
+				SetVar("ScoreUP", 10)
 			elseif (l >= 2000) then
 				RandomCarList = {"Dozer01", "Tank01", "Mirotvorec01", "Mirotvorec2", "Mirotvorec3", "Mirotvorec4", "Mirotvorec5", "Cruiser01", "Cruiser02", "Belaz01", "Belaz2", "Belaz3", "Belaz4", "Belaz5"}
 				RandomCar = getn(RandomCarList)
-				println("l > 2000")
+				SetVar("ScoreUP", 200)
 			elseif (l >= 1700) then
 				RandomCarList = {"Mirotvorec01", "Mirotvorec2", "Mirotvorec3", "Mirotvorec4", "Mirotvorec5", "Cruiser01", "Cruiser02"}
 				RandomCar = getn(RandomCarList)
-				println("l > 1700")
+				SetVar("ScoreUP", 150)
 			elseif (l >= 1500) then
 				RandomCarList = {"Belaz01", "Belaz2", "Belaz3", "Belaz4", "Belaz5"}
 				RandomCar = getn(RandomCarList)
-				println("l > 1500")
+				SetVar("ScoreUP", 125)
 			elseif (l >= 1200) then
 				RandomCarList = {"Ural00", "Ural01", "Ural3", "Ural4", "Ural5", "Ural02"}
 				RandomCar = getn(RandomCarList)
-				println("l > 1200")
+				SetVar("ScoreUP", 100)
 			elseif (l >= 1000) then
 				RandomCarList = {"r1m1_molokovoz02", "r2m1_Molokovoz01", "r2m2_Molokovoz01", "r1m1_molokovoz01", "r1m1_molokovoz03"}
 				RandomCar = getn(RandomCarList)
-				println("l > 1000")
 			elseif (l >= 800) then
 				RandomCarList = {"r1m3_molokovoz03", "r1m1_molokovoz01", "r1m1_molokovoz02", "r1m1_bug02", "r1m1_bug03", "DemoBug2"}
 				RandomCar = getn(RandomCarList)
-				println("l > 800")
+				SetVar("ScoreUP", 75)
 			elseif (l >= 550) then
 				RandomCarList = {"Bug01", "r1m1_bug02", "r1m1_bug03", "DemoBug2", "DemoBug3", "Fighter01", "Fighter02", "Hunter02"}
 				RandomCar = getn(RandomCarList)
-				println("l > 550")
+				SetVar("ScoreUP", 50)
 			elseif (l >= 300) then
 				RandomCarList = {"Scout01", "Scout02", "Scout03", "Fighter01", "Fighter02", "Hunter02"}
 				RandomCar = getn(RandomCarList)
-				println("l > 300")
+				SetVar("ScoreUP", 30)
 			elseif (l >= 150) then
 				RandomCarList = {"Sml101", "Sml201", "Sml301", "Sml401", "Scout01", "Scout02", "Scout03", "Fighter01"}
 				RandomCar = getn(RandomCarList)
-				println("l > 150")
+				SetVar("ScoreUP", 15)
 			end
 
 			local randCar = ""
@@ -467,13 +524,35 @@
 				CreateEffectInsertedInRemove("ET_PS_VEH_EXP2_MED1", EnCoor1, Quaternion(0, 0, 0, 1), true)
 				EnemyQ1:Remove()
 			end
-				
-			local sc = 50
+
+			local sc = GetVar("ScoreUP").AsInt
 			local l = GetVar("Score").AsInt
+			local c = GetVar("Combo").AsInt
+
+			c = c + 1
+
+			if c >= 2 then
+				sc = sc * c
+			end 
+
 			l = l + sc
 
-			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			println(c)
+		
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
+
+			if c >= 4 then
+				SetVar("Combo", 0)
+			else
+				SetVar("Combo", c)
+			end 
+
+			if c >= 2 then
+				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
+			end
+			
+			TActivate("EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -489,12 +568,34 @@
 				EnemyQ1:Remove()
 			end
 				
-			local sc = 50
+			local sc = GetVar("ScoreUP").AsInt
 			local l = GetVar("Score").AsInt
+			local c = GetVar("Combo").AsInt
+
+			c = c + 1
+
+			if c >= 2 then
+				sc = sc * c
+			end 
+
 			l = l + sc
 
-			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			println(c)
+		
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
+
+			if c >= 4 then
+				SetVar("Combo", 0)
+			else
+				SetVar("Combo", c)
+			end 
+
+			if c >= 2 then
+				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
+			end
+
+			TActivate("EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -510,12 +611,34 @@
 				EnemyQ1:Remove()
 			end
 				
-			local sc = 50
+			local sc = GetVar("ScoreUP").AsInt
 			local l = GetVar("Score").AsInt
+			local c = GetVar("Combo").AsInt
+
+			c = c + 1
+
+			if c >= 2 then
+				sc = sc * c
+			end 
+
 			l = l + sc
 
-			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			println(c)
+		
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
+
+			if c >= 4 then
+				SetVar("Combo", 0)
+			else
+				SetVar("Combo", c)
+			end 
+
+			if c >= 2 then
+				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
+			end
+
+			TActivate("EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -531,12 +654,34 @@
 				EnemyQ1:Remove()
 			end
 				
-			local sc = 50
+			local sc = GetVar("ScoreUP").AsInt
 			local l = GetVar("Score").AsInt
+			local c = GetVar("Combo").AsInt
+
+			c = c + 1
+
+			if c >= 2 then
+				sc = sc * c
+			end 
+
 			l = l + sc
 
-			AddFadingMsgByStrIdFormatted("fm_challenge_score", l)
+			println(c)
+		
+			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
+
+			if c >= 4 then
+				SetVar("Combo", 0)
+			else
+				SetVar("Combo", c)
+			end 
+
+			if c >= 2 then
+				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
+			end
+
+			TActivate("EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -550,6 +695,24 @@
 				trigger:Deactivate()
 			end
 		
+		</script>
+	</trigger>
+
+	<trigger Name="EnemyDestrouedCOMBO" active="0">
+		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<script>
+			if getObj("DEA_EnemyDestrouedCOMBO"):IsActivated()==0 then
+				TActivate("DEA_EnemyDestrouedCOMBO")
+			end
+			trigger:Deactivate()
+		</script>
+	</trigger>
+
+	<trigger Name="DEA_EnemyDestrouedCOMBO" active="0">
+		<event 	timeout="3" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetVar("Combo", 0)
+			trigger:Deactivate()
 		</script>
 	</trigger>
 
@@ -709,6 +872,8 @@
 		<script>
 			
 			local l = GetVar("Score").AsInt
+
+			SetVar("ChallengeComplete", 1)
 			
 			if GetVar("PlayerDie").AsInt == 1 then
 				AddImportantFadingMsgByStrIdFormatted("fm_done_challenge")
@@ -731,8 +896,24 @@
 				CreateEffectInsertedInRemove("ET_S_DUNGEON_COMPLETE_CHALLENGE", PlfCoor, Quaternion(0, 0, 0, 1), true)
 			end
 
+			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_DROP", "SdDrop", -1, -1, CVector(998.528, 316, 981.321), Quaternion(0, 0, 0, 1), 0)
+
+			TActivate("Start_YesOrNot")
 			TActivate("RemoveGate")
 			TActivate("YourRecord")
+
+			TDeactivate("Timer250")
+			TDeactivate("Timer180")
+			TDeactivate("Timer120")
+			TDeactivate("Timer60")
+			TDeactivate("Timer30")
+			TDeactivate("Timer10")
+			TDeactivate("Timer5")
+			TDeactivate("Timer4")
+			TDeactivate("Timer3")
+			TDeactivate("Timer2")
+			TDeactivate("Timer1")
+
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -744,11 +925,11 @@
 			local l = GetVar("Score").AsInt
 			local p = GetVar("PermanentScore").AsInt
 
-			if l > p then
-				p = l
+			if GetVar("Score").AsInt > p then
+				SetVar("PermanentScore", l)
 			end
 
-			AddImportantFadingMsgByStrIdFormatted("fm_challenge_your_record", p)
+			AddImportantFadingMsgByStrIdFormatted("fm_challenge_your_record", GetVar("PermanentScore").AsInt)
 			trigger:Deactivate()
 		</script>
 	</trigger>
