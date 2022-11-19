@@ -31,8 +31,8 @@
 		Name="CreateKey_loc"
 		Belong="1100"
 		Prototype="genericLocation"
-		Pos="645.138 254.546 982.778"
-		Radius="23.000" />
+		Pos="740.171 254.546 983.872"
+		Radius="112.000" />
 
 	<Object
 		Name="Start_loc"

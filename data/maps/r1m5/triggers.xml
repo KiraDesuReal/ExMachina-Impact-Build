@@ -4,6 +4,7 @@
 	<trigger Name="GlobalVar" active="1">
 		<event timeout="0" eventid="GE_TIME_PERIOD" />
 		<script>
+			SetVar("TimerMain",250)
 			SetVar("PermanentScore",0)
 			CreateNewDummyObject("post_challenge", "post", -1, -1, CVector(739.525, 254.800, 983.778), Quaternion(0, 0, 0, 1), 0)
 			trigger:Deactivate()
@@ -21,6 +22,10 @@
 			SetVar("PlayerDie",0)
 			SetVar("ChallengeComplete", 0)
 			SetVar("Combo", 0)
+			SetVar("ComboTimer", 3)
+
+			local t = GetVar("TimerMain").AsInt
+			SetVar("Timer", t)
 
 			local p = GetEntityByName("post")
 			if p then p:SetSkin(0) end
@@ -326,7 +331,7 @@
 
 			SetVar("Score", 0)
 			SetVar("ScoreUP", 50)
-		
+
 			AddImportantFadingMsgByStrIdFormatted("fm_start_challenge")
 
 			local randMusic = random(2)
@@ -341,7 +346,7 @@
 			end
 			
 			TActivate("ChallengeFaze2")
-			TActivate("Timer250")
+			TActivate("TimerStart")
 			TActivate("IfPlayerWithoutHP")
 
 			trigger:Deactivate()
@@ -349,39 +354,6 @@
 	</trigger>
 
 <!-- Спавн врагов -->
-	<trigger Name="SpawnEnemyInloc" active="0">
-		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
-		<script>
-
-			local l = GetVar("Score").AsInt
-			
-			local RandomLoc = ""
-			local RandomLocList = {"SpawnEnemy1_loc", "SpawnEnemy2_loc", "SpawnEnemy3_loc", "SpawnEnemy4_loc"}
-			
-			if l == 0 then
-				RandomLoc = 1
-			else
-				RandomLoc = random(4)
-			end
-
-			SetVar("Loc", RandomLoc)
-
-			CreateNewSgNodeObject("ET_PS_ORACUL_MAIN6", "FxSpawnEnemys", -1, -1, CVector(getPos(RandomLocList[RandomLoc])), Quaternion(0, 0, 0, 1), 0.3)
-
-			TActivate("SpawnEnemyInloc_2")
-
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="SpawnEnemyInloc_2" active="0">
-		<event 	timeout="2" eventid="GE_TIME_PERIOD" />
-		<script>
-			TActivate("ChallengeFaze2")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
 	<trigger Name="ChallengeFaze2" active="0">
 		<event 	timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -484,7 +456,7 @@
 			local sidegun = {""}
 
 			if l > 2000 then
-				sidegun={"hailSideGun","marsSideGun","zeusSideGun","hunterSideGun"}
+				sidegun={"marsSideGun","zeusSideGun","hunterSideGun"}
 				giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
 			elseif l > 1500 then
 				giantgun={"cyclops01","octopus01","rocketLauncher","big_swingfire01"}
@@ -514,6 +486,7 @@
 		</script>
 	</trigger>
 
+<!-- Отслеживание HP врагов -->
 	<trigger Name="Enemy0_DeadFaze2" active="0">
 		<event eventid="GE_VEHICLE_WITHOUT_HEALTH" ObjName="Enemy2_vehicle_0" />
 		<script>
@@ -537,8 +510,6 @@
 
 			l = l + sc
 
-			println(c)
-		
 			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
 
@@ -552,7 +523,7 @@
 				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
 			end
 			
-			TActivate("EnemyDestrouedCOMBO")
+			TActivate("DEA_EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -580,8 +551,6 @@
 
 			l = l + sc
 
-			println(c)
-		
 			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
 
@@ -595,7 +564,7 @@
 				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
 			end
 
-			TActivate("EnemyDestrouedCOMBO")
+			TActivate("DEA_EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -623,8 +592,6 @@
 
 			l = l + sc
 
-			println(c)
-		
 			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
 
@@ -638,7 +605,7 @@
 				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
 			end
 
-			TActivate("EnemyDestrouedCOMBO")
+			TActivate("DEA_EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -666,8 +633,6 @@
 
 			l = l + sc
 
-			println(c)
-		
 			AddFadingMsgByStrIdFormatted("fm_challenge_score", l, sc)
 			SetVar("Score",l)
 
@@ -681,7 +646,8 @@
 				AddImportantFadingMsgByStrIdFormatted("fm_challenge_kill_"..c)
 			end
 
-			TActivate("EnemyDestrouedCOMBO")
+			
+			TActivate("DEA_EnemyDestrouedCOMBO")
 			trigger:Deactivate()
 		</script>
 	</trigger>
@@ -698,24 +664,37 @@
 		</script>
 	</trigger>
 
+<!-- Таймер для комбо убийств -->
 	<trigger Name="EnemyDestrouedCOMBO" active="0">
-		<event 	timeout="0" eventid="GE_TIME_PERIOD" />
+		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
-			if getObj("DEA_EnemyDestrouedCOMBO"):IsActivated()==0 then
-				TActivate("DEA_EnemyDestrouedCOMBO")
+
+			local t = GetVar("ComboTimer").AsInt
+
+			if t == 0 then
+				SetVar("Combo", 0)
+				SetVar("ComboTimer", 0)
+				trigger:Deactivate()
+			else
+				t = t - 1
+				SetVar("ComboTimer", t)
+			end
+
+		</script>
+	</trigger>
+
+	<trigger Name="DEA_EnemyDestrouedCOMBO" active="0">
+		<event 	timeout="0.5" eventid="GE_TIME_PERIOD" />
+		<script>
+			SetVar("ComboTimer", 3)
+			if getObj("EnemyDestrouedCOMBO"):IsActivated()==0 then
+				TActivate("EnemyDestrouedCOMBO")
 			end
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="DEA_EnemyDestrouedCOMBO" active="0">
-		<event 	timeout="3" eventid="GE_TIME_PERIOD" />
-		<script>
-			SetVar("Combo", 0)
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
+<!-- Удаление врагов -->
 	<trigger Name="RemoveEnemys" active="0">
 		<event 	timeout="0.1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -767,108 +746,44 @@
 	</trigger>
 
 <!-- Таймер -->
-	<trigger Name="Timer250" active="0">
-		<event 	timeout="0.1" eventid="GE_TIME_PERIOD" />
+	<trigger Name="TimerStart" active="0">
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 250)
-			TActivate("Timer180")
+			local t = GetVar("TimerMain").AsInt
+			SetVar("Timer", t)
+			if getObj("Timer"):IsActivated()==0 then
+				TActivate("Timer")
+			end
 			trigger:Deactivate()
 		</script>
 	</trigger>
 
-	<trigger Name="Timer180" active="0">
-		<event 	timeout="70" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 180)
-			TActivate("Timer120")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer120" active="0">
-		<event 	timeout="60" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 120)
-			TActivate("Timer60")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer60" active="0">
-		<event 	timeout="60" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 60)
-			TActivate("Timer30")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer30" active="0">
-		<event 	timeout="30" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 30)
-			TActivate("Timer10")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer10" active="0">
-		<event 	timeout="20" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 10)
-			TActivate("Timer5")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer5" active="0">
-		<event 	timeout="5" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 5)
-			TActivate("Timer4")
-			trigger:Deactivate()
-		</script>
-	</trigger>
-
-	<trigger Name="Timer4" active="0">
+	<trigger Name="Timer" active="0">
 		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 4)
-			TActivate("Timer3")
-			trigger:Deactivate()
-		</script>
-	</trigger>
 
-	<trigger Name="Timer3" active="0">
-		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 3)
-			TActivate("Timer2")
-			trigger:Deactivate()
-		</script>
-	</trigger>
+			local t = GetVar("Timer").AsInt
 
-	<trigger Name="Timer2" active="0">
-		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 2)
-			TActivate("Timer1")
-			trigger:Deactivate()
-		</script>
-	</trigger>	
-	
-	<trigger Name="Timer1" active="0">
-		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
-		<script>
-			AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", 1)
-			TActivate("ChallengeComplete")
-			trigger:Deactivate()
+			if t == 250 or t == 180 or t == 120 or t == 60 or t == 30 or t == 10 or 6 > t and not(t == 0) then
+				AddImportantFadingMsgByStrIdFormatted("fm_dungeon_timer", t)
+			end
+
+			if t == 0 then
+				SetVar("Timer", 0)
+				TActivate("ChallengeComplete")
+				trigger:Deactivate()
+			else
+				t = t - 1
+				SetVar("Timer", t)
+				println(t)
+			end
+
 		</script>
 	</trigger>
 
 <!-- Конец испытания -->
 	<trigger Name="ChallengeComplete" active="0">
-		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
+		<event 	timeout="0.01" eventid="GE_TIME_PERIOD" />
 		<script>
 			
 			local l = GetVar("Score").AsInt
@@ -896,23 +811,12 @@
 				CreateEffectInsertedInRemove("ET_S_DUNGEON_COMPLETE_CHALLENGE", PlfCoor, Quaternion(0, 0, 0, 1), true)
 			end
 
-			CreateNewSgNodeObject("ET_S_DUNGEON_AMBIENT_DROP", "SdDrop", -1, -1, CVector(998.528, 316, 981.321), Quaternion(0, 0, 0, 1), 0)
-
 			TActivate("Start_YesOrNot")
 			TActivate("RemoveGate")
 			TActivate("YourRecord")
 
-			TDeactivate("Timer250")
-			TDeactivate("Timer180")
-			TDeactivate("Timer120")
-			TDeactivate("Timer60")
-			TDeactivate("Timer30")
-			TDeactivate("Timer10")
-			TDeactivate("Timer5")
-			TDeactivate("Timer4")
-			TDeactivate("Timer3")
-			TDeactivate("Timer2")
-			TDeactivate("Timer1")
+			TDeactivate("TimerStart")
+			TDeactivate("Timer")
 
 			trigger:Deactivate()
 		</script>
@@ -934,6 +838,7 @@
 		</script>
 	</trigger>
 
+<!-- Отслеживание HP игрока -->
 	<trigger Name="IfPlayerWithoutHP" active="0">
 		<event 	timeout="1" eventid="GE_TIME_PERIOD" />
 		<script>
@@ -944,6 +849,8 @@
 			if Plf then
 				if PlfHP == 0 then
 					SetVar("PlayerDie",1)
+					TDeactivate("TimerStart")
+					TDeactivate("Timer")
 					TActivate("ChallengeComplete")
 					TActivate("RemoveEnemys")
 					TActivate("RemoveKeyUnActive")
