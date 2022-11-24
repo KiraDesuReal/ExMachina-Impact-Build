@@ -1,0 +1,3186 @@
+<?xml version="1.0" encoding="windows-1251" standalone="yes" ?>
+<World
+	name="Object612"
+	class="SgNode"
+	LastId="314614690">
+	<Node
+		name="Object314614168"
+		class="SgAnimatedModelNode"
+		org="236.235 -4.136 472.223"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614169"
+		class="SgAnimatedModelNode"
+		org="236.235 -4.136 504.690"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614172"
+		class="SgAnimatedModelNode"
+		org="236.083 -4.136 536.947"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614176"
+		class="SgAnimatedModelNode"
+		org="246.263 -4.136 434.687"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614177"
+		class="SgAnimatedModelNode"
+		org="262.584 -4.136 406.717"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614178"
+		class="SgAnimatedModelNode"
+		org="278.890 -4.136 378.610"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614179"
+		class="SgAnimatedModelNode"
+		org="295.155 -4.136 350.451"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614180"
+		class="SgAnimatedModelNode"
+		org="311.466 -4.136 322.274"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614182"
+		class="SgAnimatedModelNode"
+		org="347.586 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614183"
+		class="SgAnimatedModelNode"
+		org="379.691 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614184"
+		class="SgAnimatedModelNode"
+		org="412.004 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614185"
+		class="SgAnimatedModelNode"
+		org="444.292 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614186"
+		class="SgAnimatedModelNode"
+		org="476.305 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614187"
+		class="SgAnimatedModelNode"
+		org="508.333 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614188"
+		class="SgAnimatedModelNode"
+		org="540.501 -4.136 303.348"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614189"
+		class="SgAnimatedModelNode"
+		org="576.057 -4.136 322.274"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614190"
+		class="SgAnimatedModelNode"
+		org="592.185 -4.136 350.334"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614191"
+		class="SgAnimatedModelNode"
+		org="608.353 -4.136 378.408"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614192"
+		class="SgAnimatedModelNode"
+		org="624.573 -4.136 406.538"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614193"
+		class="SgAnimatedModelNode"
+		org="640.743 -4.136 434.476"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614200"
+		class="SgAnimatedModelNode"
+		org="649.822 -4.136 471.866"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614201"
+		class="SgAnimatedModelNode"
+		org="649.671 -4.136 504.123"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614202"
+		class="SgAnimatedModelNode"
+		org="649.671 -4.136 536.116"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614206"
+		class="SgAnimatedModelNode"
+		org="246.551 -4.136 571.365"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614207"
+		class="SgAnimatedModelNode"
+		org="262.700 -4.136 599.478"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614208"
+		class="SgAnimatedModelNode"
+		org="278.863 -4.136 627.435"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614209"
+		class="SgAnimatedModelNode"
+		org="294.958 -4.136 655.394"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614210"
+		class="SgAnimatedModelNode"
+		org="311.167 -4.136 683.499"
+		orgRel="1"
+		rot="0.0000 0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614211"
+		class="SgAnimatedModelNode"
+		org="347.874 -4.136 705.225"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614212"
+		class="SgAnimatedModelNode"
+		org="379.890 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614213"
+		class="SgAnimatedModelNode"
+		org="444.491 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614214"
+		class="SgAnimatedModelNode"
+		org="476.853 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614216"
+		class="SgAnimatedModelNode"
+		org="412.203 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614218"
+		class="SgAnimatedModelNode"
+		org="640.474 -4.136 571.365"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614219"
+		class="SgAnimatedModelNode"
+		org="624.198 -4.136 599.292"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614220"
+		class="SgAnimatedModelNode"
+		org="607.974 -4.136 627.346"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614221"
+		class="SgAnimatedModelNode"
+		org="591.742 -4.136 655.521"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614222"
+		class="SgAnimatedModelNode"
+		org="575.290 -4.136 683.499"
+		orgRel="1"
+		rot="0.0000 -0.2588 0.0000 0.9659"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614237"
+		class="SgAnimatedModelNode"
+		org="230.726 5.037 484.136"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614242"
+		class="SgAnimatedModelNode"
+		org="247.529 5.037 584.122"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614244"
+		class="SgAnimatedModelNode"
+		org="280.106 5.037 640.317"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614245"
+		class="SgAnimatedModelNode"
+		org="299.438 5.037 673.267"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614246"
+		class="SgAnimatedModelNode"
+		org="354.538 5.037 709.884"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614247"
+		class="SgAnimatedModelNode"
+		org="419.473 5.037 709.884"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614248"
+		class="SgAnimatedModelNode"
+		org="484.030 5.049 709.884"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614249"
+		class="SgAnimatedModelNode"
+		org="508.950 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614250"
+		class="SgAnimatedModelNode"
+		org="540.132 -4.136 705.109"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614251"
+		class="SgAnimatedModelNode"
+		org="523.809 5.049 709.544"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614252"
+		class="SgAnimatedModelNode"
+		org="582.953 5.037 680.010"
+		orgRel="1"
+		rot="0.0000 -0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614253"
+		class="SgAnimatedModelNode"
+		org="615.134 5.037 623.907"
+		orgRel="1"
+		rot="0.0000 -0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614254"
+		class="SgAnimatedModelNode"
+		org="634.374 5.037 589.977"
+		orgRel="1"
+		rot="0.0000 -0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614258"
+		class="SgAnimatedModelNode"
+		org="653.604 5.037 524.586"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614262"
+		class="SgAnimatedModelNode"
+		org="638.550 5.037 422.204"
+		orgRel="1"
+		rot="0.0000 -0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614263"
+		class="SgAnimatedModelNode"
+		org="605.954 5.037 366.099"
+		orgRel="1"
+		rot="0.0000 -0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614264"
+		class="SgAnimatedModelNode"
+		org="587.077 5.037 334.191"
+		orgRel="1"
+		rot="0.0000 -0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614265"
+		class="SgAnimatedModelNode"
+		org="531.623 5.037 297.624"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614266"
+		class="SgAnimatedModelNode"
+		org="466.687 5.037 297.825"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614267"
+		class="SgAnimatedModelNode"
+		org="402.700 5.037 298.041"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614268"
+		class="SgAnimatedModelNode"
+		org="362.013 5.037 298.204"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614269"
+		class="SgAnimatedModelNode"
+		org="302.738 5.037 327.871"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614270"
+		class="SgAnimatedModelNode"
+		org="270.497 5.037 383.943"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614271"
+		class="SgAnimatedModelNode"
+		org="250.571 5.037 418.965"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614276"
+		class="SgAnimatedModelNode"
+		org="610.156 13.794 648.220"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="fence_long1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614277"
+		class="SgAnimatedModelNode"
+		org="640.039 13.794 595.480"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614279"
+		class="SgAnimatedModelNode"
+		org="277.325 13.794 647.325"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="fence_short_brocken"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614281"
+		class="SgAnimatedModelNode"
+		org="242.043 13.794 587.076"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614288"
+		class="SgAnimatedModelNode"
+		org="264.577 13.794 382.227"
+		orgRel="1"
+		rot="0.0000 0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="fence_long1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614299"
+		class="SgAnimatedModelNode"
+		org="230.918 5.037 516.911"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614300"
+		class="SgAnimatedModelNode"
+		org="443.573 11.979 721.295"
+		orgRel="1"
+		rot="-0.1736 0.0000 0.0000 0.9848"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614301"
+		class="SgAnimatedModelNode"
+		org="420.473 15.665 744.170"
+		orgRel="1"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614303"
+		class="SgAnimatedModelNode"
+		org="362.303 5.037 731.308"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614304"
+		class="SgAnimatedModelNode"
+		org="427.216 5.037 731.308"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614305"
+		class="SgAnimatedModelNode"
+		org="531.492 5.037 731.308"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614306"
+		class="SgAnimatedModelNode"
+		org="466.542 5.037 731.308"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614307"
+		class="SgAnimatedModelNode"
+		org="317.758 13.794 720.559"
+		orgRel="1"
+		rot="0.0000 0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614308"
+		class="SgAnimatedModelNode"
+		org="359.060 13.794 737.211"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614309"
+		class="SgAnimatedModelNode"
+		org="576.561 13.794 706.258"
+		orgRel="1"
+		rot="0.0000 -0.8660 0.0000 0.5000"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614310"
+		class="SgAnimatedModelNode"
+		org="518.154 13.794 737.211"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614312"
+		class="SgAnimatedModelNode"
+		org="514.164 0.000 747.016"
+		orgRel="1"
+		scale="3.200 3.200 3.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614313"
+		class="SgAnimatedModelNode"
+		org="368.834 0.000 748.594"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="3.200 3.200 3.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614315"
+		class="SgAnimatedModelNode"
+		org="447.161 15.665 744.248"
+		orgRel="1"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614316"
+		class="SgAnimatedModelNode"
+		org="473.727 15.665 744.307"
+		orgRel="1"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614317"
+		class="SgAnimatedModelNode"
+		org="470.213 11.942 721.435"
+		orgRel="1"
+		rot="-0.1736 0.0000 0.0000 0.9848"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614318"
+		class="SgAnimatedModelNode"
+		org="420.388 11.942 721.315"
+		orgRel="1"
+		rot="-0.1736 0.0000 0.0000 0.9848"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614319"
+		class="SgAnimatedModelNode"
+		org="383.096 8.532 743.696"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614320"
+		class="SgAnimatedModelNode"
+		org="482.970 6.828 747.289"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614323"
+		class="SgAnimatedModelNode"
+		org="373.541 0.000 694.445"
+		orgRel="1"
+		rot="0.1431 0.1326 -0.0886 0.9768"
+		scale="1.600 1.600 1.600"
+		id="crag_copped_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614324"
+		class="SgAnimatedModelNode"
+		org="563.832 15.961 718.400"
+		orgRel="1"
+		rot="0.0000 0.3563 0.0000 0.9344"
+		scale="1.800 1.800 1.800"
+		id="crag_copped_2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614327"
+		class="SgAnimatedModelNode"
+		org="552.485 68.018 744.084"
+		orgRel="1"
+		rot="0.0000 0.1951 0.0000 0.9808"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614328"
+		class="SgAnimatedModelNode"
+		org="573.529 8.891 686.819"
+		orgRel="1"
+		id="r2_crag_copped_6"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614329"
+		class="SgAnimatedModelNode"
+		org="584.364 18.000 682.536"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="r2_crag_copped_8"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614330"
+		class="SgAnimatedModelNode"
+		org="622.817 23.499 650.376"
+		orgRel="1"
+		rot="0.0000 0.5075 0.0000 0.8616"
+		scale="1.200 1.200 1.200"
+		id="r2_crag_copped_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614340"
+		class="SgAnimatedModelNode"
+		org="441.854 66.063 749.700"
+		orgRel="1"
+		rot="0.0000 0.7071 0.0000 0.7071"
+		scale="1.600 1.600 1.600"
+		id="bridge_stone"
+		ndmAction="0"
+		passable="0" />
+
+	<Node
+		name="Object314614341"
+		class="SgAnimatedModelNode"
+		org="378.093 61.840 732.869"
+		orgRel="1"
+		id="r2_crag_copped_8"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614342"
+		class="SgAnimatedModelNode"
+		org="550.888 71.946 706.985"
+		orgRel="1"
+		rot="0.0000 0.1607 0.0000 0.9870"
+		scale="2.200 2.200 2.200"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614343"
+		class="SgAnimatedModelNode"
+		org="560.362 71.000 698.011"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614345"
+		class="SgAnimatedModelNode"
+		org="545.444 71.000 722.539"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614352"
+		class="SgAnimatedModelNode"
+		org="593.439 54.552 704.805"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614353"
+		class="SgAnimatedModelNode"
+		org="613.561 74.430 679.955"
+		orgRel="1"
+		scale="3.000 3.000 3.000"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614354"
+		class="SgAnimatedModelNode"
+		org="579.177 98.720 739.571"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614355"
+		class="SgAnimatedModelNode"
+		org="539.808 112.652 740.485"
+		orgRel="1"
+		rot="0.0000 0.3827 0.0000 0.9239"
+		scale="2.200 2.200 2.200"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614358"
+		class="SgAnimatedModelNode"
+		org="548.569 0.000 744.931"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614359"
+		class="SgAnimatedModelNode"
+		org="556.361 111.640 739.827"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614363"
+		class="SgAnimatedModelNode"
+		org="502.608 108.997 744.802"
+		orgRel="1"
+		scale="3.000 3.000 3.000"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614365"
+		class="SgAnimatedModelNode"
+		org="485.020 76.301 734.189"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614367"
+		class="SgAnimatedModelNode"
+		org="515.461 70.774 731.794"
+		orgRel="1"
+		rot="0.0645 0.9831 -0.1257 0.1167"
+		scale="3.400 3.400 3.400"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614368"
+		class="SgAnimatedModelNode"
+		org="515.732 125.171 743.954"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614369"
+		class="SgAnimatedModelNode"
+		org="579.869 103.362 732.726"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614373"
+		class="SgAnimatedModelNode"
+		org="300.195 4.125 700.202"
+		orgRel="1"
+		rot="0.0363 -0.3486 -0.1716 0.9207"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614374"
+		class="SgAnimatedModelNode"
+		org="327.754 4.125 736.737"
+		orgRel="1"
+		rot="-0.0019 -0.3504 -0.0704 0.9339"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614376"
+		class="SgAnimatedModelNode"
+		org="216.608 0.000 550.567"
+		orgRel="1"
+		rot="0.2423 0.7742 0.1759 0.5576"
+		scale="2.200 2.200 2.200"
+		id="crag_copped_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614377"
+		class="SgAnimatedModelNode"
+		org="230.688 0.000 487.178"
+		orgRel="1"
+		rot="0.2633 0.6616 0.3428 0.6127"
+		scale="2.200 2.200 2.200"
+		id="crag_copped_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614378"
+		class="SgAnimatedModelNode"
+		org="238.980 9.942 552.117"
+		orgRel="1"
+		rot="0.0000 0.8179 0.0000 0.5754"
+		scale="1.200 1.200 1.200"
+		id="crag_copped_8"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614382"
+		class="SgAnimatedModelNode"
+		org="224.995 50.166 561.779"
+		orgRel="1"
+		rot="0.1176 0.8376 0.1031 0.5234"
+		scale="2.600 2.600 2.600"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614384"
+		class="SgAnimatedModelNode"
+		org="227.840 40.779 516.391"
+		orgRel="1"
+		rot="0.0753 0.9890 0.0483 0.1180"
+		scale="2.600 2.600 2.600"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614386"
+		class="SgAnimatedModelNode"
+		org="230.685 61.907 593.696"
+		orgRel="1"
+		rot="0.3297 0.0000 0.0000 0.9441"
+		scale="2.600 2.600 2.600"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614387"
+		class="SgAnimatedModelNode"
+		org="240.638 15.463 581.435"
+		orgRel="1"
+		rot="0.0000 0.1693 0.0000 0.9856"
+		id="crag_copped_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614389"
+		class="SgAnimatedModelNode"
+		org="222.763 58.466 546.520"
+		orgRel="1"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614390"
+		class="SgAnimatedModelNode"
+		org="216.306 52.918 554.465"
+		orgRel="1"
+		rot="0.3017 0.0790 -0.0247 0.9498"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614391"
+		class="SgAnimatedModelNode"
+		org="233.245 39.322 497.390"
+		orgRel="1"
+		rot="0.2875 0.1198 -0.0298 0.9498"
+		scale="1.600 1.600 1.600"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614393"
+		class="SgAnimatedModelNode"
+		org="268.169 -1.776 653.972"
+		orgRel="1"
+		rot="0.0000 0.8969 0.0000 0.4423"
+		scale="1.600 1.600 1.600"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614394"
+		class="SgAnimatedModelNode"
+		org="264.419 27.124 651.772"
+		orgRel="1"
+		scale="2.600 2.600 2.600"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614395"
+		class="SgAnimatedModelNode"
+		org="267.355 26.046 663.661"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614396"
+		class="SgAnimatedModelNode"
+		org="260.840 20.340 636.784"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614397"
+		class="SgAnimatedModelNode"
+		org="275.643 17.790 638.937"
+		orgRel="1"
+		rot="0.0000 0.5373 0.0000 0.8434"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614398"
+		class="SgAnimatedModelNode"
+		org="126.070 0.000 654.761"
+		orgRel="1"
+		rot="0.0000 0.1521 0.0000 0.9884"
+		scale="4.600 4.600 4.600"
+		id="dub1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614399"
+		class="SgAnimatedModelNode"
+		org="194.486 0.000 735.029"
+		orgRel="1"
+		scale="3.200 3.200 3.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614400"
+		class="SgAnimatedModelNode"
+		org="224.879 30.556 611.670"
+		orgRel="1"
+		rot="0.3414 0.2499 -0.0947 0.9011"
+		scale="2.000 2.000 2.000"
+		id="dub1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614401"
+		class="SgAnimatedModelNode"
+		org="101.030 0.000 721.185"
+		orgRel="1"
+		scale="3.000 3.000 3.000"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614403"
+		class="SgAnimatedModelNode"
+		org="168.754 0.000 494.056"
+		orgRel="1"
+		scale="3.000 3.000 3.000"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614404"
+		class="SgAnimatedModelNode"
+		org="231.466 0.000 811.413"
+		orgRel="1"
+		scale="4.000 4.000 4.000"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614405"
+		class="SgAnimatedModelNode"
+		org="383.779 50.000 702.353"
+		orgRel="1"
+		rot="-0.2482 0.1264 0.0327 0.9599"
+		scale="1.600 1.600 1.600"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614406"
+		class="SgAnimatedModelNode"
+		org="372.180 60.822 710.327"
+		orgRel="1"
+		rot="0.0820 0.0943 0.1680 0.9778"
+		scale="1.600 1.600 1.600"
+		id="dub1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614407"
+		class="SgAnimatedModelNode"
+		org="393.351 53.713 725.383"
+		orgRel="1"
+		scale="2.800 2.800 2.800"
+		id="listvenoe2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614409"
+		class="SgAnimatedModelNode"
+		org="317.860 87.745 711.319"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614410"
+		class="SgAnimatedModelNode"
+		org="344.280 84.119 743.060"
+		orgRel="1"
+		scale="2.400 2.400 2.400"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614411"
+		class="SgAnimatedModelNode"
+		org="333.366 91.530 730.122"
+		orgRel="1"
+		rot="0.0000 0.9758 0.0000 0.2186"
+		scale="2.000 2.000 2.000"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614413"
+		class="SgAnimatedModelNode"
+		org="329.352 84.245 709.777"
+		orgRel="1"
+		rot="-0.0161 -0.3355 -0.1522 0.9295"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614415"
+		class="SgAnimatedModelNode"
+		org="310.799 54.117 689.416"
+		orgRel="1"
+		rot="0.1046 0.2655 -0.0754 0.9555"
+		scale="2.400 2.400 2.400"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614423"
+		class="SgAnimatedModelNode"
+		org="315.609 91.000 706.964"
+		orgRel="1"
+		rot="0.0079 0.2785 -0.0495 0.9591"
+		scale="1.200 1.200 1.200"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614424"
+		class="SgAnimatedModelNode"
+		org="328.021 10.166 700.986"
+		orgRel="1"
+		rot="0.0000 0.9856 0.0000 0.1693"
+		scale="1.600 1.600 1.600"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614427"
+		class="SgAnimatedModelNode"
+		org="333.968 43.128 711.372"
+		orgRel="1"
+		rot="0.0000 -0.1543 0.0000 0.9880"
+		scale="1.200 1.200 1.200"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614428"
+		class="SgAnimatedModelNode"
+		org="324.940 43.039 691.264"
+		orgRel="1"
+		rot="0.0000 -0.3867 0.0000 0.9222"
+		scale="1.600 1.600 1.600"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614429"
+		class="SgAnimatedModelNode"
+		org="392.110 126.255 749.106"
+		orgRel="1"
+		rot="0.0000 0.3827 0.0000 0.9239"
+		scale="2.200 2.200 2.200"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614431"
+		class="SgAnimatedModelNode"
+		org="363.870 124.505 750.670"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614437"
+		class="SgAnimatedModelNode"
+		org="384.445 129.701 744.830"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614438"
+		class="SgAnimatedModelNode"
+		org="239.889 16.643 556.805"
+		orgRel="1"
+		rot="0.0000 0.8278 0.0000 0.5610"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614441"
+		class="SgAnimatedModelNode"
+		org="363.617 94.983 734.523"
+		orgRel="1"
+		rot="-0.2216 0.2311 -0.0719 0.9446"
+		scale="2.200 2.200 2.200"
+		id="listvenoe2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614442"
+		class="SgAnimatedModelNode"
+		org="388.968 77.000 766.267"
+		orgRel="1"
+		rot="0.2559 0.2244 -0.0642 0.9381"
+		scale="2.800 2.800 2.800"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614443"
+		class="SgAnimatedModelNode"
+		org="400.285 0.000 777.210"
+		orgRel="1"
+		rot="0.0000 0.6478 0.0000 0.7618"
+		scale="2.400 2.400 2.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614444"
+		class="SgAnimatedModelNode"
+		org="396.463 0.000 815.241"
+		orgRel="1"
+		rot="0.0000 0.8216 0.0000 0.5700"
+		scale="2.800 2.800 2.800"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614445"
+		class="SgAnimatedModelNode"
+		org="481.083 0.000 761.860"
+		orgRel="1"
+		rot="0.0000 0.5754 0.0000 -0.8179"
+		scale="2.400 2.400 2.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614446"
+		class="SgAnimatedModelNode"
+		org="498.974 0.000 788.482"
+		orgRel="1"
+		rot="0.0000 0.8583 0.0000 0.5132"
+		scale="3.000 3.000 3.000"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614447"
+		class="SgAnimatedModelNode"
+		org="403.414 0.000 849.038"
+		orgRel="1"
+		rot="0.0000 0.9171 0.0000 0.3987"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614448"
+		class="SgAnimatedModelNode"
+		org="530.493 0.000 823.609"
+		orgRel="1"
+		rot="0.0000 0.3049 0.0000 -0.9524"
+		scale="3.000 3.000 3.000"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614449"
+		class="SgAnimatedModelNode"
+		org="439.949 -10.832 891.710"
+		orgRel="1"
+		rot="0.0052 0.2777 -0.0212 -0.9604"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614450"
+		class="SgAnimatedModelNode"
+		org="565.063 0.000 846.722"
+		orgRel="1"
+		rot="0.0000 0.1392 0.0000 -0.9903"
+		scale="3.000 3.000 3.000"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614451"
+		class="SgAnimatedModelNode"
+		org="478.498 -10.832 903.805"
+		orgRel="1"
+		rot="0.0062 0.2355 -0.0209 -0.9716"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614452"
+		class="SgAnimatedModelNode"
+		org="502.961 -10.832 934.450"
+		orgRel="1"
+		rot="0.0094 0.0763 -0.0197 -0.9968"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614453"
+		class="SgAnimatedModelNode"
+		org="530.198 19.343 960.899"
+		orgRel="1"
+		rot="0.0094 0.0763 -0.0197 -0.9968"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614455"
+		class="SgAnimatedModelNode"
+		org="599.417 21.086 849.471"
+		orgRel="1"
+		rot="0.0000 -0.1392 0.0000 0.9903"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614457"
+		class="SgAnimatedModelNode"
+		org="474.295 92.447 759.772"
+		orgRel="1"
+		scale="2.600 2.600 2.600"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614458"
+		class="SgAnimatedModelNode"
+		org="394.771 109.604 808.169"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614461"
+		class="SgAnimatedModelNode"
+		org="414.826 135.460 861.320"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614462"
+		class="SgAnimatedModelNode"
+		org="398.786 130.783 848.016"
+		orgRel="1"
+		scale="2.600 2.600 2.600"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614464"
+		class="SgAnimatedModelNode"
+		org="455.982 125.672 900.049"
+		orgRel="1"
+		rot="0.0000 -0.1478 0.0000 0.9890"
+		scale="3.400 3.400 3.400"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614465"
+		class="SgAnimatedModelNode"
+		org="426.469 121.161 894.640"
+		orgRel="1"
+		scale="2.400 2.400 2.400"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614466"
+		class="SgAnimatedModelNode"
+		org="406.510 111.936 823.536"
+		orgRel="1"
+		rot="0.0000 0.2965 0.0000 0.9550"
+		scale="1.600 1.600 1.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614467"
+		class="SgAnimatedModelNode"
+		org="503.637 120.000 930.695"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614469"
+		class="SgAnimatedModelNode"
+		org="524.468 151.816 952.806"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="r3_tropicpalma2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614471"
+		class="SgAnimatedModelNode"
+		org="502.915 155.984 953.323"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614472"
+		class="SgAnimatedModelNode"
+		org="517.352 35.000 907.158"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614473"
+		class="SgAnimatedModelNode"
+		org="580.655 16.448 951.735"
+		orgRel="1"
+		rot="-0.0052 0.2147 0.0155 0.9765"
+		scale="3.000 3.000 3.000"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614474"
+		class="SgAnimatedModelNode"
+		org="580.274 131.593 950.376"
+		orgRel="1"
+		rot="0.0000 0.5225 0.0000 0.8526"
+		scale="2.000 2.000 2.000"
+		id="r3_tropicpalma2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614477"
+		class="SgAnimatedModelNode"
+		org="582.430 155.984 951.930"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614478"
+		class="SgAnimatedModelNode"
+		org="560.109 135.352 950.986"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614479"
+		class="SgAnimatedModelNode"
+		org="475.064 123.000 936.245"
+		orgRel="1"
+		rot="0.0000 -0.1305 0.0000 0.9914"
+		scale="2.600 2.600 2.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614480"
+		class="SgAnimatedModelNode"
+		org="454.893 77.997 876.076"
+		orgRel="1"
+		rot="-0.2306 0.0591 -0.0129 0.9712"
+		scale="2.000 2.000 2.000"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614481"
+		class="SgAnimatedModelNode"
+		org="592.177 156.501 846.746"
+		orgRel="1"
+		rot="0.0000 -0.1305 0.0000 0.9914"
+		scale="2.600 2.600 2.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614482"
+		class="SgAnimatedModelNode"
+		org="606.688 152.065 847.713"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614483"
+		class="SgAnimatedModelNode"
+		org="564.324 144.356 839.880"
+		orgRel="1"
+		rot="-0.1252 0.7033 0.0925 0.6936"
+		scale="1.800 1.800 1.800"
+		id="dub2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614484"
+		class="SgAnimatedModelNode"
+		org="522.478 114.519 817.222"
+		orgRel="1"
+		rot="0.0000 0.3887 0.0000 0.9214"
+		scale="2.200 2.200 2.200"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614486"
+		class="SgAnimatedModelNode"
+		org="544.328 119.961 843.055"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="r3_junglebush2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614487"
+		class="SgAnimatedModelNode"
+		org="501.888 118.051 800.944"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614492"
+		class="SgAnimatedModelNode"
+		org="635.715 6.073 581.474"
+		orgRel="1"
+		rot="0.0000 0.7025 0.0000 0.7117"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614504"
+		class="SgAnimatedModelNode"
+		org="623.624 64.848 646.859"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614506"
+		class="SgAnimatedModelNode"
+		org="594.826 74.091 672.794"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614507"
+		class="SgAnimatedModelNode"
+		org="630.125 26.959 584.222"
+		orgRel="1"
+		rot="0.0000 0.7785 0.0000 0.6276"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614509"
+		class="SgAnimatedModelNode"
+		org="607.278 66.450 652.825"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="r3_junglebush1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614521"
+		class="SgAnimatedModelNode"
+		org="635.019 70.146 488.232"
+		orgRel="1"
+		rot="0.1175 0.7241 0.1229 0.6684"
+		scale="2.000 2.000 2.000"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614524"
+		class="SgAnimatedModelNode"
+		org="591.823 13.794 332.624"
+		orgRel="1"
+		rot="0.0000 -0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="fence_short_brocken"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614525"
+		class="SgAnimatedModelNode"
+		org="630.059 7.091 409.477"
+		orgRel="1"
+		rot="-0.0066 0.6974 -0.0222 0.7163"
+		scale="1.200 1.200 1.200"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614526"
+		class="SgAnimatedModelNode"
+		org="628.514 31.231 415.102"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614527"
+		class="SgAnimatedModelNode"
+		org="604.052 -3.011 334.312"
+		orgRel="1"
+		rot="0.0000 -0.4127 0.0000 0.9109"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614528"
+		class="SgAnimatedModelNode"
+		org="610.636 30.028 334.687"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614529"
+		class="SgAnimatedModelNode"
+		org="592.561 26.022 327.658"
+		orgRel="1"
+		rot="0.0000 -0.2672 0.0000 0.9636"
+		scale="1.600 1.600 1.600"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614530"
+		class="SgAnimatedModelNode"
+		org="590.285 17.952 335.183"
+		orgRel="1"
+		rot="0.0659 0.2351 0.1705 0.9546"
+		id="dub2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614533"
+		class="SgAnimatedModelNode"
+		org="921.914 192.059 208.203"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614534"
+		class="SgAnimatedModelNode"
+		org="889.512 104.369 195.999"
+		orgRel="1"
+		rot="0.0000 0.4791 0.0000 0.8778"
+		scale="1.600 1.600 1.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614535"
+		class="SgAnimatedModelNode"
+		org="936.133 106.872 260.040"
+		orgRel="1"
+		rot="0.0000 0.5556 0.0000 0.8315"
+		scale="2.200 2.200 2.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614536"
+		class="SgAnimatedModelNode"
+		org="906.727 190.000 202.978"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614537"
+		class="SgAnimatedModelNode"
+		org="910.493 0.000 13.895"
+		orgRel="1"
+		rot="0.0000 -0.4656 0.0000 0.8850"
+		scale="4.400 4.400 4.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614538"
+		class="SgAnimatedModelNode"
+		org="931.053 66.004 60.550"
+		orgRel="1"
+		rot="0.0000 0.5556 0.0000 0.8315"
+		scale="2.000 2.000 2.000"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614539"
+		class="SgAnimatedModelNode"
+		org="898.924 98.139 41.105"
+		orgRel="1"
+		scale="2.600 2.600 2.600"
+		id="dub1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614541"
+		class="SgAnimatedModelNode"
+		org="653.437 5.037 488.384"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614542"
+		class="SgAnimatedModelNode"
+		org="657.535 13.794 527.089"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="fence_long1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614543"
+		class="SgAnimatedModelNode"
+		org="224.002 13.794 527.846"
+		orgRel="1"
+		rot="0.0000 -0.7071 0.0000 0.7071"
+		scale="1.200 1.200 1.200"
+		id="fence_long1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614544"
+		class="SgAnimatedModelNode"
+		org="933.504 0.000 228.380"
+		orgRel="1"
+		rot="0.0000 -0.4656 0.0000 0.8850"
+		scale="4.800 4.800 4.800"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614545"
+		class="SgAnimatedModelNode"
+		org="627.101 13.794 394.011"
+		orgRel="1"
+		rot="0.0000 -0.5000 0.0000 0.8660"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614548"
+		class="SgAnimatedModelNode"
+		org="659.005 0.000 438.592"
+		orgRel="1"
+		rot="0.0484 0.7383 0.2407 0.6282"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614549"
+		class="SgAnimatedModelNode"
+		org="639.577 9.947 449.211"
+		orgRel="1"
+		rot="0.0000 0.9296 0.0000 0.3685"
+		scale="1.200 1.200 1.200"
+		id="r2_crag_copped_8"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614551"
+		class="SgAnimatedModelNode"
+		org="662.288 15.830 550.803"
+		orgRel="1"
+		id="r2_crag_copped_7"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614552"
+		class="SgAnimatedModelNode"
+		org="646.584 9.116 548.161"
+		orgRel="1"
+		rot="0.0000 0.4067 0.0000 0.9135"
+		id="r2_crag_copped_7"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614553"
+		class="SgAnimatedModelNode"
+		org="716.046 0.000 577.243"
+		orgRel="1"
+		rot="0.0000 -0.4344 0.0000 0.9007"
+		scale="3.000 3.000 3.000"
+		id="t_greattree3_"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614554"
+		class="SgAnimatedModelNode"
+		org="650.407 19.686 556.677"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614555"
+		class="SgAnimatedModelNode"
+		org="638.297 15.984 558.957"
+		orgRel="1"
+		rot="0.0000 0.4981 0.0000 0.8671"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614556"
+		class="SgAnimatedModelNode"
+		org="641.860 14.104 535.785"
+		orgRel="1"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614557"
+		class="SgAnimatedModelNode"
+		org="641.093 36.040 430.342"
+		orgRel="1"
+		rot="0.1840 -0.0308 0.1622 0.9690"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614558"
+		class="SgAnimatedModelNode"
+		org="654.650 11.841 486.393"
+		orgRel="1"
+		rot="0.0000 0.6836 0.0000 0.7299"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614559"
+		class="SgAnimatedModelNode"
+		org="652.404 26.091 514.430"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614560"
+		class="SgAnimatedModelNode"
+		org="650.121 44.862 493.777"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614561"
+		class="SgAnimatedModelNode"
+		org="636.717 71.445 627.387"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614562"
+		class="SgAnimatedModelNode"
+		org="641.643 47.551 596.276"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614563"
+		class="SgAnimatedModelNode"
+		org="223.400 9.139 449.146"
+		orgRel="1"
+		rot="0.0000 0.1500 0.0000 0.9887"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614565"
+		class="SgAnimatedModelNode"
+		org="241.664 25.877 459.068"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614566"
+		class="SgAnimatedModelNode"
+		org="230.176 39.763 440.116"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614567"
+		class="SgAnimatedModelNode"
+		org="193.132 0.000 416.622"
+		orgRel="1"
+		rot="0.0000 0.1908 0.0000 0.9816"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614568"
+		class="SgAnimatedModelNode"
+		org="68.826 0.000 435.257"
+		orgRel="1"
+		rot="0.0000 0.5113 0.0000 0.8594"
+		scale="4.200 4.200 4.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614569"
+		class="SgAnimatedModelNode"
+		org="216.015 29.418 402.255"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614570"
+		class="SgAnimatedModelNode"
+		org="193.655 85.002 413.366"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614571"
+		class="SgAnimatedModelNode"
+		org="95.979 90.000 429.427"
+		orgRel="1"
+		rot="0.0000 0.5556 0.0000 0.8315"
+		scale="1.800 1.800 1.800"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614572"
+		class="SgAnimatedModelNode"
+		org="73.714 63.137 394.140"
+		orgRel="1"
+		rot="0.0000 0.6105 0.0000 0.7920"
+		scale="1.600 1.600 1.600"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614573"
+		class="SgAnimatedModelNode"
+		org="47.944 139.880 428.539"
+		orgRel="1"
+		rot="-0.2873 -0.1410 0.0306 0.9469"
+		scale="2.600 2.600 2.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614574"
+		class="SgAnimatedModelNode"
+		org="47.969 0.000 24.697"
+		orgRel="1"
+		rot="0.0000 0.7880 0.0000 0.6157"
+		scale="5.000 5.000 5.000"
+		id="crag_copped_5"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614575"
+		class="SgAnimatedModelNode"
+		org="74.030 109.076 4.107"
+		orgRel="1"
+		scale="2.800 2.800 2.800"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614576"
+		class="SgAnimatedModelNode"
+		org="74.214 109.648 77.998"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614577"
+		class="SgAnimatedModelNode"
+		org="162.020 0.000 348.121"
+		orgRel="1"
+		rot="0.0000 0.3987 0.0000 0.9171"
+		scale="1.600 1.600 1.600"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614578"
+		class="SgAnimatedModelNode"
+		org="164.354 49.133 348.226"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614579"
+		class="SgAnimatedModelNode"
+		org="183.616 36.229 344.799"
+		orgRel="1"
+		rot="0.0000 0.4285 0.0000 0.9035"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614580"
+		class="SgAnimatedModelNode"
+		org="159.299 48.884 325.136"
+		orgRel="1"
+		rot="0.0000 0.9063 0.0000 0.4226"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614581"
+		class="SgAnimatedModelNode"
+		org="313.677 0.000 289.242"
+		orgRel="1"
+		rot="0.0000 -0.4067 0.0000 0.9135"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614582"
+		class="SgAnimatedModelNode"
+		org="286.395 7.339 311.109"
+		orgRel="1"
+		rot="0.0000 0.1607 0.0000 0.9870"
+		scale="1.400 1.400 1.400"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614583"
+		class="SgAnimatedModelNode"
+		org="295.951 17.792 326.467"
+		orgRel="1"
+		rot="-0.0002 0.5928 -0.0284 0.8048"
+		scale="1.200 1.200 1.200"
+		id="crag_copped_3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614584"
+		class="SgAnimatedModelNode"
+		org="323.435 0.483 248.281"
+		orgRel="1"
+		rot="-0.0064 0.3927 0.0013 0.9196"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614585"
+		class="SgAnimatedModelNode"
+		org="357.787 5.037 277.265"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614586"
+		class="SgAnimatedModelNode"
+		org="422.546 5.037 277.265"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614587"
+		class="SgAnimatedModelNode"
+		org="487.079 5.037 277.265"
+		orgRel="1"
+		rot="0.0000 1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614588"
+		class="SgAnimatedModelNode"
+		org="523.631 5.037 277.265"
+		orgRel="1"
+		rot="0.0000 -1.0000 0.0000 0.0000"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614590"
+		class="SgAnimatedModelNode"
+		org="433.601 11.789 286.024"
+		orgRel="1"
+		rot="0.1758 0.0000 0.0000 0.9844"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614591"
+		class="SgAnimatedModelNode"
+		org="391.342 13.953 271.095"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614592"
+		class="SgAnimatedModelNode"
+		org="326.263 13.953 271.095"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614593"
+		class="SgAnimatedModelNode"
+		org="456.135 13.953 271.095"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614594"
+		class="SgAnimatedModelNode"
+		org="520.781 13.953 271.095"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614595"
+		class="SgAnimatedModelNode"
+		org="531.419 13.953 271.201"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="quay_line"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614596"
+		class="SgAnimatedModelNode"
+		org="337.008 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614598"
+		class="SgAnimatedModelNode"
+		org="374.721 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614599"
+		class="SgAnimatedModelNode"
+		org="412.193 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614600"
+		class="SgAnimatedModelNode"
+		org="449.656 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614601"
+		class="SgAnimatedModelNode"
+		org="486.941 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614602"
+		class="SgAnimatedModelNode"
+		org="524.283 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614603"
+		class="SgAnimatedModelNode"
+		org="541.712 11.703 244.139"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="quay_big_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614605"
+		class="SgAnimatedModelNode"
+		org="487.418 25.050 228.337"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="fence_long1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614609"
+		class="SgAnimatedModelNode"
+		org="375.080 25.050 228.337"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="fence_short1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614611"
+		class="SgAnimatedModelNode"
+		org="433.945 24.413 235.884"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614612"
+		class="SgAnimatedModelNode"
+		org="447.208 24.413 235.884"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614613"
+		class="SgAnimatedModelNode"
+		org="420.556 24.413 235.884"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614614"
+		class="SgAnimatedModelNode"
+		org="460.457 24.413 235.884"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614615"
+		class="SgAnimatedModelNode"
+		org="407.142 24.413 235.884"
+		orgRel="1"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614616"
+		class="SgAnimatedModelNode"
+		org="465.204 22.718 235.884"
+		orgRel="1"
+		rot="-0.0041 -0.0012 -0.3694 0.9293"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614617"
+		class="SgAnimatedModelNode"
+		org="402.500 22.339 235.884"
+		orgRel="1"
+		rot="0.0023 0.0057 0.3694 0.9293"
+		id="quay_cube"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614618"
+		class="SgAnimatedModelNode"
+		org="370.782 17.253 291.616"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="pole_factory_big"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614619"
+		class="SgAnimatedModelNode"
+		org="495.073 17.253 291.616"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="pole_factory_big"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614620"
+		class="SgAnimatedModelNode"
+		org="347.984 11.032 304.308"
+		orgRel="1"
+		rot="0.0000 0.2861 0.0000 0.9582"
+		scale="1.400 1.400 1.400"
+		id="r2_crag_copped_8"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614621"
+		class="SgAnimatedModelNode"
+		org="335.627 18.494 282.162"
+		orgRel="1"
+		rot="0.0000 0.5966 0.0000 0.8026"
+		scale="1.200 1.200 1.200"
+		id="r2_crag_copped_7"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614622"
+		class="SgAnimatedModelNode"
+		org="479.091 10.446 296.375"
+		orgRel="1"
+		rot="0.0000 -0.0741 0.0000 0.9973"
+		id="r2_crag_copped_6"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614623"
+		class="SgAnimatedModelNode"
+		org="467.503 8.925 295.313"
+		orgRel="1"
+		rot="0.0055 0.9775 0.1141 0.1772"
+		scale="1.400 1.400 1.400"
+		id="r2_crag_copped_8"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614624"
+		class="SgAnimatedModelNode"
+		org="529.942 7.584 293.320"
+		orgRel="1"
+		rot="0.0000 -0.1822 0.0000 0.9833"
+		id="r2_crag_copped_2"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614625"
+		class="SgAnimatedModelNode"
+		org="509.252 0.000 212.984"
+		orgRel="1"
+		rot="0.0026 -0.0173 0.1758 0.9843"
+		scale="4.400 4.400 4.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614626"
+		class="SgAnimatedModelNode"
+		org="365.301 0.000 202.964"
+		orgRel="1"
+		rot="0.0000 -0.2504 0.0000 -0.9681"
+		scale="3.400 3.400 3.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614628"
+		class="SgAnimatedModelNode"
+		org="574.639 0.000 280.733"
+		orgRel="1"
+		rot="0.0000 0.7618 0.0000 0.6478"
+		scale="2.200 2.200 2.200"
+		id="r2_crag_copped_1"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614629"
+		class="SgAnimatedModelNode"
+		org="552.416 0.000 240.208"
+		orgRel="1"
+		rot="-0.0894 0.9859 -0.1010 0.0993"
+		scale="2.400 2.400 2.400"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614630"
+		class="SgAnimatedModelNode"
+		org="299.955 36.278 316.569"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614631"
+		class="SgAnimatedModelNode"
+		org="296.423 33.165 338.714"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614632"
+		class="SgAnimatedModelNode"
+		org="267.885 50.588 316.853"
+		orgRel="1"
+		id="dub1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614633"
+		class="SgAnimatedModelNode"
+		org="350.401 22.041 304.180"
+		orgRel="1"
+		rot="0.0000 0.7518 0.0000 0.6593"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614634"
+		class="SgAnimatedModelNode"
+		org="335.199 31.776 299.261"
+		orgRel="1"
+		id="listvenoe2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614636"
+		class="SgAnimatedModelNode"
+		org="318.019 85.226 295.247"
+		orgRel="1"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614637"
+		class="SgAnimatedModelNode"
+		org="315.623 38.181 315.494"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614638"
+		class="SgAnimatedModelNode"
+		org="356.807 50.000 235.655"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614639"
+		class="SgAnimatedModelNode"
+		org="346.063 75.570 251.936"
+		orgRel="1"
+		rot="0.0000 0.0741 0.0000 0.9973"
+		scale="1.400 1.400 1.400"
+		id="r3_junglebush1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614640"
+		class="SgAnimatedModelNode"
+		org="310.731 136.308 270.591"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614641"
+		class="SgAnimatedModelNode"
+		org="326.559 132.501 247.974"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614643"
+		class="SgAnimatedModelNode"
+		org="340.715 134.699 220.974"
+		orgRel="1"
+		scale="2.600 2.600 2.600"
+		id="r3_tropicpalma1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614644"
+		class="SgAnimatedModelNode"
+		org="368.584 130.000 204.720"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614645"
+		class="SgAnimatedModelNode"
+		org="374.035 92.604 217.326"
+		orgRel="1"
+		rot="0.0740 0.3483 -0.0708 0.9318"
+		scale="2.000 2.000 2.000"
+		id="listvenoe3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614646"
+		class="SgAnimatedModelNode"
+		org="357.964 137.824 212.065"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614647"
+		class="SgAnimatedModelNode"
+		org="304.040 134.975 251.021"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="dub_kust1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614648"
+		class="SgAnimatedModelNode"
+		org="302.430 88.863 283.164"
+		orgRel="1"
+		rot="0.0000 0.6001 0.0000 0.7999"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614650"
+		class="SgAnimatedModelNode"
+		org="385.886 74.429 216.419"
+		orgRel="1"
+		rot="0.0000 0.4067 0.0000 0.9135"
+		scale="1.200 1.200 1.200"
+		id="listvenoe2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614651"
+		class="SgAnimatedModelNode"
+		org="419.083 154.047 215.593"
+		orgRel="1"
+		rot="0.0262 0.1124 0.2256 0.9674"
+		scale="2.000 2.000 2.000"
+		id="dub1_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614652"
+		class="SgAnimatedModelNode"
+		org="453.463 160.061 220.665"
+		orgRel="1"
+		rot="0.0544 0.0929 0.1561 0.9819"
+		scale="1.600 1.600 1.600"
+		id="r3_tropicpalma3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614653"
+		class="SgAnimatedModelNode"
+		org="434.899 162.793 214.348"
+		orgRel="1"
+		rot="-0.0555 -0.0247 0.2008 0.9777"
+		scale="1.600 1.600 1.600"
+		id="r3_junglebush1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614654"
+		class="SgAnimatedModelNode"
+		org="491.293 94.616 241.215"
+		orgRel="1"
+		rot="-0.1060 0.8694 0.1408 0.4615"
+		scale="1.400 1.400 1.400"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614655"
+		class="SgAnimatedModelNode"
+		org="459.990 162.842 201.177"
+		orgRel="1"
+		rot="-0.0133 -0.0949 0.1385 0.9857"
+		scale="1.400 1.400 1.400"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614656"
+		class="SgAnimatedModelNode"
+		org="466.285 164.293 216.888"
+		orgRel="1"
+		rot="0.0000 0.0000 0.1972 0.9804"
+		scale="1.400 1.400 1.400"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614657"
+		class="SgAnimatedModelNode"
+		org="404.837 50.455 188.869"
+		orgRel="1"
+		scale="2.200 2.200 2.200"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614658"
+		class="SgAnimatedModelNode"
+		org="441.016 73.039 229.738"
+		orgRel="1"
+		rot="0.0786 0.3452 0.2509 0.9010"
+		scale="1.400 1.400 1.400"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614659"
+		class="SgAnimatedModelNode"
+		org="537.337 87.287 226.394"
+		orgRel="1"
+		rot="-0.1163 0.0422 0.0530 0.9909"
+		scale="1.600 1.600 1.600"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614660"
+		class="SgAnimatedModelNode"
+		org="523.732 76.985 236.009"
+		orgRel="1"
+		rot="0.0176 0.1140 0.1511 0.9818"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614661"
+		class="SgAnimatedModelNode"
+		org="526.799 76.635 195.717"
+		orgRel="1"
+		rot="0.0077 0.0585 0.2035 0.9773"
+		scale="1.400 1.400 1.400"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614662"
+		class="SgAnimatedModelNode"
+		org="573.070 55.185 227.614"
+		orgRel="1"
+		rot="0.0000 0.0000 0.1132 0.9936"
+		scale="1.200 1.200 1.200"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614664"
+		class="SgAnimatedModelNode"
+		org="476.683 60.847 240.605"
+		orgRel="1"
+		rot="-0.0106 -0.0989 0.1922 0.9763"
+		scale="1.400 1.400 1.400"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614665"
+		class="SgAnimatedModelNode"
+		org="546.972 26.069 305.373"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614666"
+		class="SgAnimatedModelNode"
+		org="535.902 30.000 308.262"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614667"
+		class="SgAnimatedModelNode"
+		org="519.190 40.546 291.780"
+		orgRel="1"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614668"
+		class="SgAnimatedModelNode"
+		org="540.371 38.890 287.304"
+		orgRel="1"
+		scale="0.600 0.600 0.600"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614671"
+		class="SgAnimatedModelNode"
+		org="476.985 16.305 309.251"
+		orgRel="1"
+		rot="0.0963 0.1069 0.0205 0.9894"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614672"
+		class="SgAnimatedModelNode"
+		org="573.893 26.124 311.200"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614673"
+		class="SgAnimatedModelNode"
+		org="580.141 46.244 267.745"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614675"
+		class="SgAnimatedModelNode"
+		org="575.156 44.647 285.553"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614676"
+		class="SgAnimatedModelNode"
+		org="458.419 0.000 5.963"
+		orgRel="1"
+		rot="-0.0117 0.0022 -0.0152 0.9998"
+		scale="6.000 6.000 6.000"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614677"
+		class="SgAnimatedModelNode"
+		org="458.317 234.693 12.857"
+		orgRel="1"
+		scale="2.400 2.400 2.400"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614678"
+		class="SgAnimatedModelNode"
+		org="478.166 231.822 9.924"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614679"
+		class="SgAnimatedModelNode"
+		org="411.457 241.006 11.518"
+		orgRel="1"
+		rot="0.0000 -0.2398 0.0000 0.9708"
+		scale="2.200 2.200 2.200"
+		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614680"
+		class="SgAnimatedModelNode"
+		org="479.737 132.437 38.803"
+		orgRel="1"
+		scale="1.800 1.800 1.800"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614681"
+		class="SgAnimatedModelNode"
+		org="524.663 91.505 29.408"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614682"
+		class="SgAnimatedModelNode"
+		org="391.070 134.148 20.883"
+		orgRel="1"
+		rot="0.0000 0.7547 0.0000 0.6561"
+		scale="1.800 1.800 1.800"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614683"
+		class="SgAnimatedModelNode"
+		org="560.119 7.871 300.962"
+		orgRel="1"
+		rot="0.0000 -0.0654 0.0000 0.9979"
+		id="crag_copped_6"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614684"
+		class="SgAnimatedModelNode"
+		org="558.280 14.526 316.029"
+		orgRel="1"
+		rot="0.1769 0.1323 -0.0387 0.9745"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614685"
+		class="SgAnimatedModelNode"
+		org="578.033 35.891 252.400"
+		orgRel="1"
+		scale="1.200 1.200 1.200"
+		id="listvenoe1"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614686"
+		class="SgAnimatedModelNode"
+		org="557.925 36.075 271.355"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614688"
+		class="SgAnimatedModelNode"
+		org="271.818 52.149 300.741"
+		orgRel="1"
+		scale="1.400 1.400 1.400"
+		id="dub3"
+		ndmAction="0" />
+</World>

@@ -775,7 +775,6 @@
 			else
 				t = t - 1
 				SetVar("Timer", t)
-				println(t)
 			end
 
 		</script>

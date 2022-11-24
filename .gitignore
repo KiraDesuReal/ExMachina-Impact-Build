@@ -127,4 +127,18 @@ video.xml
 #music
 !data/music/dungeons/sumeru_battle_1.ogg
 !data/music/dungeons/sumeru_battle_2.ogg
+#archipelago
+!data/maps/archipelago_gold_apple.ssl
+!data/maps/archipelago_gold_apple/colormap.raw
+!data/maps/archipelago_gold_apple/displace.bin
+!data/maps/archipelago_gold_apple/level.tile
+!data/maps/archipelago_gold_apple/lightmap_daytime_archipelago.dds
+!data/maps/archipelago_gold_apple/lightmap_nighttime_archipelago.dds
+!data/maps/archipelago_gold_apple/lightmap_sunrisetime_archipelago.dds
+!data/maps/archipelago_gold_apple/lightmap_sunsettime_archipelago.dds
+!data/maps/archipelago_gold_apple/NormalMap.bin
+!data/maps/archipelago_gold_apple/passmap.raw
+!data/maps/archipelago_gold_apple/ShoreLine.bin
+!data/maps/archipelago_gold_apple/water.raw
+
 

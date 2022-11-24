@@ -3002,4 +3002,89 @@
 			windChangeVelTime="100000.000"
 			windChangeDirTime="100000.000" />
 	</WeatherItem>
+
+	<WeatherItem
+		class="WeatherClear"
+		name="archipelago_clear01"
+		skyDomeFactor="1.000"
+		waterSpeed="0.520"
+		waterWaveHBig="0.000"
+		waterWaveHSmall="0.000"
+		waterWaveSizeBig="0.500"
+		waterWaveSizeSmall="1.000"
+		waterCourseAngle="0.000"
+		waterSpecularM="200.000"
+		waterSpecularS="0.005">
+		<Sky
+			sunriseColor="140.250 175.950 229.500"
+			dayColor="137.700 181.050 255.000"
+			sunsetColor="214.200 155.550 191.250"
+			nightColor="2.550 58.650 86.700" />
+
+		<Fog
+			sunriseColor="160.650 204.000 170.850"
+			dayColor="140.250 216.750 234.600"
+			sunsetColor="221.850 188.700 122.400"
+			nightColor="0.000 35.700 43.350" />
+
+		<Ambient
+			sunriseColor="145.350 178.500 130.050"
+			dayColor="153.000 181.050 122.400"
+			sunsetColor="155.550 163.200 104.550"
+			nightColor="86.700 114.750 96.900" />
+
+		<Diffuse
+			sunriseColor="135.150 142.800 117.300"
+			dayColor="112.200 135.150 109.650"
+			sunsetColor="104.550 137.700 140.250"
+			nightColor="76.500 89.250 79.050" />
+
+		<Sun
+			sunriseColor="124.950 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="63.750 64.000 64.000" />
+
+		<Plant
+			sunriseColor="155.550 178.500 140.250"
+			dayColor="163.200 178.500 168.300"
+			sunsetColor="135.150 173.400 130.050"
+			nightColor="45.900 66.300 79.050" />
+
+		<Specular
+			sunriseColor="128.000 128.000 128.000"
+			dayColor="255.000 255.000 255.000"
+			sunsetColor="128.000 128.000 128.000"
+			nightColor="64.000 64.000 64.000" />
+
+		<PostEffect
+			sunrise="wSunrise_archipelago"
+			day="wDay_archipelago"
+			sunset="wSunset_archipelago"
+			night="wNight_archipelago" />
+
+		<ShadowVisibility
+			sunrise="1"
+			day="1"
+			sunset="1"
+			night="1" />
+
+		<ShadowTransparency
+			sunrise="49.000"
+			day="51.000"
+			sunset="36.000"
+			night="0.500" />
+
+		<cloudsSpeed
+			sunrise="0.100"
+			day="0.100"
+			sunset="0.100"
+			night="0.100" />
+
+		<WindInfo
+			windMaxVel="0.000"
+			windMinVel="0.000"
+			windChangeVelTime="100000.000"
+			windChangeDirTime="100000.000" />
+	</WeatherItem>
 </Weather>

@@ -12,6 +12,16 @@
 		splashes="data\if\ico_hd\Splashes\dungeon.dds"
 		musicBlocks="block_dungeon" />
 
+	<LevelInfo
+		name="archipelago_gold_apple"
+		file="data\maps\archipelago_gold_apple.ssl"
+		fullName="archipelago_gold_apple"
+		diz0=""
+		diz1=""
+		image0="data\if\map\dungeon.dds"
+		image1=""
+		splashes="data\if\ico_hd\Splashes\dungeon.dds"
+		musicBlocks="block_dungeon" />
 
 	<LevelInfo
 		name="mainmenu"
