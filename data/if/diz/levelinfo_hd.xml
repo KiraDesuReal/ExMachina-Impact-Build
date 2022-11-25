@@ -20,7 +20,7 @@
 		diz1=""
 		image0="data\if\map\dungeon.dds"
 		image1=""
-		splashes="data\if\ico_hd\Splashes\dungeon.dds"
+		splashes="data\if\ico_hd\Splashes\archipelago.dds"
 		musicBlocks="block_dungeon" />
 
 	<LevelInfo

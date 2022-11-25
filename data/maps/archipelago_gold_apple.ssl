@@ -126,7 +126,7 @@
 			name="PLAYERPASSMAP">player_passmap.bin</Key>
 
 		<Key
-			name="SERVERS">data\models\servers.xml</Key>
+			name="SERVERS">data\maps\archipelago_gold_apple\servers.xml</Key>
 
 		<Key
 			name="STATICSERVERS">data\models\commonservers.xml</Key>

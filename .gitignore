@@ -78,18 +78,6 @@ video.xml
 *.yaml
 *.psys
 *.ssl
-# exceptions
-!data/maps/mainmenu.ssl
-!data/maps/r1m1.ssl
-!data/maps/r1m2.ssl
-!data/maps/r1m3.ssl
-!data/maps/r1m4.ssl
-!data/maps/r2m1.ssl
-!data/maps/r2m2.ssl
-!data/maps/r3m1.ssl
-!data/maps/r3m2.ssl
-!data/maps/r4m1.ssl
-!data/maps/r4m2.ssl
 #r1m5
 !data/maps/r1m5.ssl
 !data/maps/r1m5/colormap.raw
@@ -107,6 +95,7 @@ video.xml
 #dds
 !data/if/map/dungeon.dds
 !data/if/ico_hd/splashes/dungeon.dds
+!data/if/ico_hd/splashes/archipelago.dds
 #sounds
 !data/music/silence.ogg
 !data/sounds/dungeon/dungeon_key.wav
@@ -138,6 +127,7 @@ video.xml
 !data/maps/archipelago_gold_apple/lightmap_sunsettime_archipelago.dds
 !data/maps/archipelago_gold_apple/NormalMap.bin
 !data/maps/archipelago_gold_apple/passmap.raw
+!data/maps/archipelago_gold_apple/player_passmap.bin
 !data/maps/archipelago_gold_apple/ShoreLine.bin
 !data/maps/archipelago_gold_apple/water.raw
 

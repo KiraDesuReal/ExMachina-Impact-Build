@@ -2,7 +2,7 @@
 <World
 	name="Object612"
 	class="SgNode"
-	LastId="314614690">
+	LastId="314614696">
 	<Node
 		name="Object314614168"
 		class="SgAnimatedModelNode"
@@ -1943,7 +1943,7 @@
 	<Node
 		name="Object314614537"
 		class="SgAnimatedModelNode"
-		org="910.493 0.000 13.895"
+		org="769.646 0.000 107.166"
 		orgRel="1"
 		rot="0.0000 -0.4656 0.0000 0.8850"
 		scale="4.400 4.400 4.400"
@@ -1954,7 +1954,7 @@
 	<Node
 		name="Object314614538"
 		class="SgAnimatedModelNode"
-		org="931.053 66.004 60.550"
+		org="790.206 66.004 153.821"
 		orgRel="1"
 		rot="0.0000 0.5556 0.0000 0.8315"
 		scale="2.000 2.000 2.000"
@@ -1964,7 +1964,7 @@
 	<Node
 		name="Object314614539"
 		class="SgAnimatedModelNode"
-		org="898.924 98.139 41.105"
+		org="758.077 98.139 134.376"
 		orgRel="1"
 		scale="2.600 2.600 2.600"
 		id="dub1"
@@ -2254,7 +2254,7 @@
 	<Node
 		name="Object314614574"
 		class="SgAnimatedModelNode"
-		org="47.969 0.000 24.697"
+		org="72.578 0.000 74.604"
 		orgRel="1"
 		rot="0.0000 0.7880 0.0000 0.6157"
 		scale="5.000 5.000 5.000"
@@ -2264,7 +2264,7 @@
 	<Node
 		name="Object314614575"
 		class="SgAnimatedModelNode"
-		org="74.030 109.076 4.107"
+		org="98.639 109.076 54.014"
 		orgRel="1"
 		scale="2.800 2.800 2.800"
 		id="dub2_r2"
@@ -2273,7 +2273,7 @@
 	<Node
 		name="Object314614576"
 		class="SgAnimatedModelNode"
-		org="74.214 109.648 77.998"
+		org="98.823 109.648 127.905"
 		orgRel="1"
 		scale="1.600 1.600 1.600"
 		id="dub_kust2_r2"
@@ -3182,5 +3182,54 @@
 		orgRel="1"
 		scale="1.400 1.400 1.400"
 		id="dub3"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614690"
+		class="SgAnimatedModelNode"
+		org="974.858 0.000 69.668"
+		orgRel="1"
+		rot="0.0000 0.5391 0.0000 0.8422"
+		scale="4.200 4.200 4.200"
+		id="r2_crag_copped_5"
+		ndmAction="0"
+		skin="1" />
+
+	<Node
+		name="Object314614691"
+		class="SgAnimatedModelNode"
+		org="957.714 164.162 87.424"
+		orgRel="1"
+		scale="2.000 2.000 2.000"
+		id="dub3_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614692"
+		class="SgAnimatedModelNode"
+		org="962.566 163.195 68.474"
+		orgRel="1"
+		scale="1.600 1.600 1.600"
+		id="dub_kust2_r2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614693"
+		class="SgAnimatedModelNode"
+		org="986.035 63.310 23.948"
+		orgRel="1"
+		rot="0.0000 0.2186 0.0000 0.9758"
+		scale="2.000 2.000 2.000"
+		id="dub2"
+		ndmAction="0" />
+
+	<Node
+		name="Object314614694"
+		class="SgAnimatedModelNode"
+		org="951.278 92.710 110.810"
+		orgRel="1"
+		rot="0.0000 0.2122 0.0000 0.9772"
+		scale="1.400 1.400 1.400"
+		id="listvenoe1"
 		ndmAction="0" />
 </World>
